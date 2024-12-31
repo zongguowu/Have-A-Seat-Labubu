@@ -2,6 +2,8 @@
 
 Ship Any AI SaaS Startups in hours.
 
+![preview](preview.png)
+
 ## Quick Start
 
 1. Clone the repository
