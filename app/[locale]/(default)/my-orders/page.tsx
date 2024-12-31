@@ -6,8 +6,6 @@ import { TableColumn } from "@/types/blocks/table";
 import moment from "moment";
 import { redirect } from "next/navigation";
 
-export const runtime = "nodejs";
-
 export default async function MyOrders() {
   const user_uuid = await getUserUuid();
   const user_email = await getUserEmail();
