@@ -2,7 +2,7 @@ import { handleOrderSession } from "@/services/order";
 import { redirect } from "next/navigation";
 import { toast } from "sonner";
 
-export const runtime = "edge";
+export const runtime = "nodejs";
 
 export default async function ({ params }: { params: { session_id: string } }) {
   try {
