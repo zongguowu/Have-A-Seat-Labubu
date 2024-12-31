@@ -7,6 +7,8 @@ import Stripe from "stripe";
 import { findUserByUuid } from "@/models/user";
 import { getSnowId } from "@/lib/hash";
 
+export const runtime = "edge";
+
 export async function POST(req: Request) {
   try {
     let {

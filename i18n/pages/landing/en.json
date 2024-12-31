@@ -71,14 +71,14 @@
     "buttons": [
       {
         "title": "Get Started",
-        "icon": "BsLightning",
+        "icon": "RiFlashlightFill",
         "url": "/#pricing",
         "target": "_self",
         "variant": "default"
       },
       {
         "title": "Join Discord",
-        "icon": "BsDiscord",
+        "icon": "RiDiscordFill",
         "url": "https://discord.gg/HQNnrzjZQS",
         "target": "_blank",
         "variant": "outline"
@@ -149,7 +149,7 @@
       {
         "title": "Quick Deployment",
         "description": "Deploy your AI SaaS application to production in hours, not days.",
-        "icon": "GrDeploy"
+        "icon": "RiCloudyFill"
       }
     ]
   },
@@ -170,7 +170,7 @@
       {
         "title": "Rich Templates Library",
         "description": "Choose from various AI SaaS templates to kickstart your project - chatbots, image generation, and more.",
-        "icon": "LuLibrary",
+        "icon": "RiClapperboardAiLine",
         "image": {
           "src": "/imgs/features/3.png"
         }
@@ -178,7 +178,7 @@
       {
         "title": "Technical Guidance",
         "description": "Get dedicated support and join our developer community to ensure your successful launch.",
-        "icon": "BsFileEarmarkCode",
+        "icon": "RiCodeFill",
         "image": {
           "src": "/imgs/features/4.png"
         }
@@ -238,7 +238,7 @@
       {
         "title": "Authentication & Payments",
         "description": "Integrated Google OAuth, one-tap login, and Stripe payment processing.",
-        "icon": "SiAuthy"
+        "icon": "RiKey2Fill"
       },
       {
         "title": "Data Infrastructure",
@@ -248,12 +248,12 @@
       {
         "title": "One-Click Deployment",
         "description": "Seamless deployment to Vercel or Cloudflare with automated setup.",
-        "icon": "GrDeploy"
+        "icon": "RiCloudy2Fill"
       },
       {
         "title": "Business Analytics",
         "description": "Integrated Google Analytics and Search Console for tracking growth.",
-        "icon": "SiSimpleanalytics"
+        "icon": "RiBarChart2Line"
       },
       {
         "title": "AI-Ready Infrastructure",
@@ -405,7 +405,7 @@
         "button": {
           "title": "Get ShipAny",
           "url": "/#pricing",
-          "icon": "BsLightning"
+          "icon": "RiFlashlightFill"
         },
         "product_id": "starter",
         "product_name": "ShipAny Boilerplate Starter",
@@ -438,7 +438,7 @@
         "button": {
           "title": "Get ShipAny",
           "url": "/#pricing",
-          "icon": "BsLightning"
+          "icon": "RiFlashlightFill"
         },
         "product_id": "standard",
         "product_name": "ShipAny Boilerplate Standard",
@@ -469,7 +469,7 @@
         "button": {
           "title": "Get ShipAny",
           "url": "/#pricing",
-          "icon": "BsLightning"
+          "icon": "RiFlashlightFill"
         },
         "product_id": "premium",
         "product_name": "ShipAny Boilerplate Premium",

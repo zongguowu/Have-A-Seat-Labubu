@@ -12,6 +12,8 @@ import Stats from "@/components/blocks/stats";
 import Testimonial from "@/components/blocks/testimonial";
 import { getLandingPage } from "@/services/page";
 
+export const runtime = "edge";
+
 export async function generateMetadata({
   params: { locale },
 }: {

@@ -71,14 +71,14 @@
     "buttons": [
       {
         "title": "立即开始",
-        "icon": "BsLightning",
+        "icon": "RiFlashlightFill",
         "url": "/#pricing",
         "target": "_self",
         "variant": "default"
       },
       {
         "title": "加入 Discord",
-        "icon": "BsDiscord",
+        "icon": "RiDiscordFill",
         "url": "https://discord.gg/HQNnrzjZQS",
         "target": "_blank",
         "variant": "outline"
@@ -149,7 +149,7 @@
       {
         "title": "快速部署",
         "description": "在几小时内将您的 AI SaaS 应用部署到生产环境，而不是几天。",
-        "icon": "GrDeploy"
+        "icon": "RiCloudyFill"
       }
     ]
   },
@@ -170,7 +170,7 @@
       {
         "title": "丰富的模板库",
         "description": "选择各种 AI SaaS 模板来启动您的项目 - 聊天机器人、图像生成等。",
-        "icon": "LuLibrary",
+        "icon": "RiClapperboardAiLine",
         "image": {
           "src": "/imgs/features/3.png"
         }
@@ -178,7 +178,7 @@
       {
         "title": "技术指导",
         "description": "获得专门支持并加入我们的开发者社区，确保您成功启动。",
-        "icon": "BsFileEarmarkCode",
+        "icon": "RiCodeFill",
         "image": {
           "src": "/imgs/features/4.png"
         }
@@ -238,7 +238,7 @@
       {
         "title": "身份验证和支付",
         "description": "集成 Google OAuth、一键登录和 Stripe 支付处理。",
-        "icon": "SiAuthy"
+        "icon": "RiKey2Fill"
       },
       {
         "title": "数据基础设施",
@@ -248,12 +248,12 @@
       {
         "title": "一键部署",
         "description": "无缝部署到 Vercel 或 Cloudflare，自动化设置。",
-        "icon": "GrDeploy"
+        "icon": "RiCloudy2Fill"
       },
       {
         "title": "业务分析",
         "description": "集成 Google Analytics 和 Search Console 追踪增长。",
-        "icon": "SiSimpleanalytics"
+        "icon": "RiBarChart2Line"
       },
       {
         "title": "AI 就绪基础设施",
@@ -405,7 +405,7 @@
         "button": {
           "title": "获取 ShipAny",
           "url": "/#pricing",
-          "icon": "BsLightning"
+          "icon": "RiFlashlightFill"
         },
         "product_id": "starter",
         "product_name": "ShipAny 模板入门版",
@@ -438,7 +438,7 @@
         "button": {
           "title": "获取 ShipAny",
           "url": "/#pricing",
-          "icon": "BsLightning"
+          "icon": "RiFlashlightFill"
         },
         "product_id": "standard",
         "product_name": "ShipAny 模板标准版",
@@ -469,7 +469,7 @@
         "button": {
           "title": "获取 ShipAny",
           "url": "/#pricing",
-          "icon": "BsLightning"
+          "icon": "RiFlashlightFill"
         },
         "product_id": "premium",
         "product_name": "ShipAny 模板高级版",

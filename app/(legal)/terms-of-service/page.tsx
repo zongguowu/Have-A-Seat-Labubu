@@ -2,6 +2,8 @@ import Markdown from "@/components/markdown";
 import { MdOutlineHome } from "react-icons/md";
 import { Metadata } from "next";
 
+export const runtime = "edge";
+
 export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Terms of Service",
