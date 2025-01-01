@@ -144,7 +144,7 @@ export default function Pricing({ pricing }: { pricing: PricingType }) {
             </div>
           )}
           <div
-            className={`mt-0 grid gap-6 md:grid-cols-${
+            className={`w-full mt-0 grid gap-6 md:grid-cols-${
               pricing.items?.filter(
                 (item) => !item.group || item.group === group
               )?.length
