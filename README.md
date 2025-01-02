@@ -32,9 +32,13 @@ pnpm dev
 cp .env.example .env.local
 ```
 
-- Set your i18n messages in `i18n/messages`
+- Set your theme in `app/theme.css`
+
+[shadcn-ui-theme-generator](https://zippystarter.com/tools/shadcn-ui-theme-generator)
 
 - Set your landing page content in `i18n/pages/landing`
+
+- Set your i18n messages in `i18n/messages`
 
 ## Deploy
 

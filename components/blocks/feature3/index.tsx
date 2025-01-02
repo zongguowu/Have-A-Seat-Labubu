@@ -45,15 +45,17 @@ export default function Feature3({ section }: { section: SectionType }) {
                         <p className="text-sm">{item.description}</p>
                       </div>
                     </div>
-                    <div className="mt-6 block border bg-muted/50 px-4 py-6 lg:hidden">
-                      <div className="aspect-video">
-                        <img
-                          src={item.image?.src}
-                          alt={item.image?.alt || item.title}
-                          className="h-full w-full rounded-md border object-cover shadow"
-                        />
+                    {item.image && (
+                      <div className="mt-6 block border bg-muted/50 px-4 py-6 lg:hidden">
+                        <div className="aspect-video">
+                          <img
+                            src={item.image?.src}
+                            alt={item.image?.alt || item.title}
+                            className="h-full w-full rounded-md border object-cover shadow"
+                          />
+                        </div>
                       </div>
-                    </div>
+                    )}
                   </TabsTrigger>
                 );
               })}
