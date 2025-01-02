@@ -39,5 +39,6 @@ next-env.d.ts
 
 .vscode
 Makefile
+.wrangler
 wrangler.toml
 supabase
