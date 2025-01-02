@@ -666,25 +666,25 @@
       "items": [
         {
           "title": "X",
-          "icon": "BsTwitterX",
+          "icon": "RiTwitterXFill",
           "url": "https://x.com/shipanyai",
           "target": "_blank"
         },
         {
           "title": "Github",
-          "icon": "BsGithub",
+          "icon": "RiGithubFill",
           "url": "https://github.com/shipanyai",
           "target": "_blank"
         },
         {
           "title": "Discord",
-          "icon": "BsDiscord",
+          "icon": "RiDiscordFill",
           "url": "https://discord.gg/HQNnrzjZQS",
           "target": "_blank"
         },
         {
           "title": "Email",
-          "icon": "BsEnvelope",
+          "icon": "RiMailLine",
           "url": "mailto:support@shipany.ai",
           "target": "_self"
         }
