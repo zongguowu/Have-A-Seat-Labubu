@@ -44,7 +44,7 @@ export default async function MyOrders() {
     },
     {
       name: "paid_at",
-      title: "Paied At",
+      title: "Paid At",
       callback: (item: any) =>
         moment(item.paid_at).format("YYYY-MM-DD HH:mm:ss"),
     },
