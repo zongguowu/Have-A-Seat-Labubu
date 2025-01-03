@@ -19,7 +19,7 @@ export default function () {
   };
 
   return (
-    <div className="flex items-center gap-x-2">
+    <div className="flex items-center gap-x-2 px-2">
       {theme === "dark" ? (
         <BsSun
           className="cursor-pointer text-lg text-muted-foreground"

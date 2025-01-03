@@ -4,6 +4,10 @@ import { Badge } from "@/components/ui/badge";
 import { Section as SectionType } from "@/types/blocks/section";
 
 export default function Feature3({ section }: { section: SectionType }) {
+  if (!section.disabled) {
+    return null;
+  }
+
   return (
     <section className="py-16">
       <div className="lg:container px-8">
