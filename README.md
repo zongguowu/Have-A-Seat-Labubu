@@ -48,6 +48,19 @@ cp .env.example .env.local
 
 - Deploy to Cloudflare
 
+1. Customize your environment variables
+
+```bash
+cp .env.example .env.production
+cp wrangler.toml.example wrangler.toml
+```
+
+edit your environment variables in `.env.production`
+
+and put all the environment variables under `[vars]` in `wrangler.toml`
+
+2. Deploy
+
 ```bash
 npm run cf:deploy
 ```
