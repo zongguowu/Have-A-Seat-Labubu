@@ -1,7 +1,9 @@
 {
-  "name": "pagen-template",
-  "version": "0.1.0",
+  "name": "shipany-template-one",
+  "version": "1.0.0",
   "private": true,
+  "author": "idoubi",
+  "homepage": "https://shipany.ai",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
