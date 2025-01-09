@@ -114,8 +114,8 @@ export default function Pricing({ pricing }: { pricing: PricingType }) {
           {pricing.groups && pricing.groups.length > 0 && (
             <div className="flex h-12 mb-12 items-center rounded-md bg-muted p-1 text-lg">
               <RadioGroup
-                defaultValue="monthly"
-                className="h-full grid-cols-2"
+                value={group}
+                className={`h-full grid-cols-${pricing.groups.length}`}
                 onValueChange={(value) => {
                   setGroup(value);
                 }}
@@ -152,7 +152,7 @@ export default function Pricing({ pricing }: { pricing: PricingType }) {
             </div>
           )}
           <div
-            className={`w-full mt-0 grid gap-6 md:grid-cols-${
+            className={`md:min-w-96 mt-0 grid gap-6 md:grid-cols-${
               pricing.items?.filter(
                 (item) => !item.group || item.group === group
               )?.length
