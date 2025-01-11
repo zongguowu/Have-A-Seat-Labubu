@@ -2,8 +2,6 @@ import Stripe from "stripe";
 import { handleOrderSession } from "@/services/order";
 import { redirect } from "next/navigation";
 
-export const runtime = "edge";
-
 export default async function ({ params }: { params: { session_id: string } }) {
   try {
     const stripe = new Stripe(process.env.STRIPE_PRIVATE_KEY || "");
