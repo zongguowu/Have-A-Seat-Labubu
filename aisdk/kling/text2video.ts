@@ -20,7 +20,7 @@ class Client {
     external_task_id,
     ...params
   }: {
-    model?: "kling-v1";
+    model?: "kling-v1" | "kling-v1-6";
     prompt: string;
     negative_prompt?: string;
     cfg_scale?: number;
@@ -35,7 +35,7 @@ class Client {
     try {
       const uri = `${baseUrl}/v1/videos/text2video`;
       const req = {
-        model,
+        model_name: model,
         prompt,
         negative_prompt,
         cfg_scale,
@@ -73,6 +73,7 @@ class Client {
   async queryTask({ task_id }: { task_id: string }): Promise<Response> {
     try {
       const uri = `${baseUrl}/v1/videos/text2video/${task_id}`;
+      console.log("query task:", uri);
       const response = await fetch(uri, {
         method: "GET",
         headers: {
