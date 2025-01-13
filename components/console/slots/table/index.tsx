@@ -1,7 +1,7 @@
 import { Separator } from "@/components/ui/separator";
 import TableBlock from "@/components/blocks/table";
 import { Table as TableSlotType } from "@/types/slots/table";
-import Toolbar from "../../../blocks/toolbar";
+import Toolbar from "@/components/blocks/toolbar";
 
 export default function ({ ...table }: TableSlotType) {
   return (

@@ -15,6 +15,10 @@
     "cf:deploy": "pnpm cf:build && wrangler pages deploy"
   },
   "dependencies": {
+    "@ai-sdk/openai": "^1.0.18",
+    "@ai-sdk/provider": "^1.0.4",
+    "@ai-sdk/provider-utils": "^2.0.7",
+    "@ai-sdk/replicate": "^0.0.2",
     "@devnomic/marquee": "^1.0.2",
     "@hookform/resolvers": "^3.10.0",
     "@mdx-js/loader": "^3.1.0",
@@ -41,6 +45,7 @@
     "@supabase/supabase-js": "^2.47.10",
     "@types/canvas-confetti": "^1.9.0",
     "@types/mdx": "^2.0.13",
+    "ai": "^4.0.33",
     "canvas-confetti": "^1.9.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -57,6 +62,7 @@
     "next-auth": "5.0.0-beta.20",
     "next-intl": "^3.26.3",
     "next-themes": "^0.4.4",
+    "openai": "^4.78.1",
     "react": "^18",
     "react-dom": "^18",
     "react-hook-form": "^7.54.2",
