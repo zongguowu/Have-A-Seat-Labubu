@@ -18,6 +18,17 @@ Content-Type: application/json
   "model": "minimax/minimax-01"
 }
 
+
+### gen text stream
+POST {{baseUrl}}/api/demo/gen-text-stream
+Content-Type: application/json
+
+{
+  "prompt": "who are you?",
+  "provider": "openrouter",
+  "model": "minimax/minimax-01"
+}
+
 ### gen image
 POST {{baseUrl}}/api/demo/gen-image
 Content-Type: application/json
