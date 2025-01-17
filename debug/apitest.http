@@ -8,6 +8,16 @@ Content-Type: application/json
   "message": "hello"
 }
 
+### gen text
+POST {{baseUrl}}/api/demo/gen-text
+Content-Type: application/json
+
+{
+  "prompt": "who are you?",
+  "provider": "openrouter",
+  "model": "minimax/minimax-01"
+}
+
 ### gen image
 POST {{baseUrl}}/api/demo/gen-image
 Content-Type: application/json
