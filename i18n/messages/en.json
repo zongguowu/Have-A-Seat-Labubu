@@ -48,5 +48,10 @@
       "github_username": "GitHub Username",
       "status": "Status"
     }
+  },
+  "blog": {
+    "title": "Blogs",
+    "description": "News, resources, and updates about ShipAny",
+    "read_more_text": "Read More"
   }
 }

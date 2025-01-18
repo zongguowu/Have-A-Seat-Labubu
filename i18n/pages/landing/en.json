@@ -42,6 +42,11 @@
               "target": "_blank"
             }
           ]
+        },
+        {
+          "title": "Blogs",
+          "url": "/blogs",
+          "icon": "RiBookOpenLine"
         }
       ]
     },

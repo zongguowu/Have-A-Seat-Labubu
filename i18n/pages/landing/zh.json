@@ -8,7 +8,7 @@
         "src": "/logo.png",
         "alt": "ShipAny"
       },
-      "url": "/"
+      "url": "/zh"
     },
     "nav": {
       "items": [
@@ -42,6 +42,11 @@
               "target": "_blank"
             }
           ]
+        },
+        {
+          "title": "博客",
+          "url": "/zh/blogs",
+          "icon": "RiBookOpenLine"
         }
       ]
     },
