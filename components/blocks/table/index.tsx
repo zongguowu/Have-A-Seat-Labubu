@@ -32,17 +32,20 @@ export default function ({
         </TableRow>
       </TableHeader>
       <TableBody>
-        {data.map((item: any, idx: number) => (
-          <TableRow key={idx}>
-            {columns.map((column: TableColumn) => {
-              return (
-                <TableCell key={column.name} className={column.className}>
-                  {column.callback ? column.callback(item) : item[column.name]}
-                </TableCell>
-              );
-            })}
-          </TableRow>
-        ))}
+        {data &&
+          data.map((item: any, idx: number) => (
+            <TableRow key={idx}>
+              {columns.map((column: TableColumn) => {
+                return (
+                  <TableCell key={column.name} className={column.className}>
+                    {column.callback
+                      ? column.callback(item)
+                      : item[column.name]}
+                  </TableCell>
+                );
+              })}
+            </TableRow>
+          ))}
       </TableBody>
     </Table>
   );

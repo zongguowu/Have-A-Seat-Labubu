@@ -13,15 +13,13 @@ export async function insertUser(user: User) {
 }
 
 export async function findUserByEmail(
-  email: string,
-  signin_provider: string
+  email: string
 ): Promise<User | undefined> {
   const supabase = getSupabaseClient();
   const { data, error } = await supabase
     .from("users")
     .select("*")
     .eq("email", email)
-    .eq("signin_provider", signin_provider)
     .single();
 
   if (error) {

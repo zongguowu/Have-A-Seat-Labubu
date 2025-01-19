@@ -6,10 +6,7 @@ import { headers } from "next/headers";
 
 export async function saveUser(user: User) {
   try {
-    const existUser = await findUserByEmail(
-      user.email,
-      user.signin_provider || ""
-    );
+    const existUser = await findUserByEmail(user.email);
     if (!existUser) {
       await insertUser(user);
     } else {
