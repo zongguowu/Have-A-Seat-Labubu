@@ -20,6 +20,7 @@ export async function findUserByEmail(
     .from("users")
     .select("*")
     .eq("email", email)
+    .limit(1)
     .single();
 
   if (error) {
