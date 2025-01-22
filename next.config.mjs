@@ -31,8 +31,12 @@ const nextConfig = {
   async redirects() {
     return [];
   },
-  webpack: (config, { isServer }) => {
+  webpack: (config, { isServer, nextRuntime }) => {
     config.optimization.minimize = true;
+
+    if (nextRuntime === "edge") {
+      return config;
+    }
 
     config.optimization.splitChunks = {
       chunks: "all",
