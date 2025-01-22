@@ -23,7 +23,7 @@
           "icon": "MdPayment"
         },
         {
-          "title": "Showcases",
+          "title": "Showcase",
           "url": "/#showcase",
           "icon": "BiCube",
           "children": [
@@ -37,16 +37,16 @@
             {
               "title": "AI Cover Generator",
               "description": "AI Cover Generator",
-              "icon": "RiRedPacketLine",
+              "icon": "",
               "url": "https://aicover.design",
               "target": "_blank"
             }
           ]
         },
         {
-          "title": "Blogs",
-          "url": "/blogs",
-          "icon": "RiBookOpenLine"
+          "title": "Blog",
+          "url": "/posts",
+          "icon": ""
         }
       ]
     },

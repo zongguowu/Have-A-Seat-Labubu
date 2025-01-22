@@ -37,7 +37,7 @@
             {
               "title": "AI封面生成器",
               "description": "AI封面生成器",
-              "icon": "RiRedPacketLine",
+              "icon": "",
               "url": "https://aicover.design",
               "target": "_blank"
             }
@@ -45,8 +45,8 @@
         },
         {
           "title": "博客",
-          "url": "/zh/blogs",
-          "icon": "RiBookOpenLine"
+          "url": "/zh/posts",
+          "icon": ""
         }
       ]
     },

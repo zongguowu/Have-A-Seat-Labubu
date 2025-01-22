@@ -40,3 +40,19 @@ CREATE TABLE orders (
     paid_email VARCHAR(255),
     paid_detail TEXT
 );
+
+CREATE TABLE posts (
+    id SERIAL PRIMARY KEY,
+    uuid VARCHAR(255) UNIQUE NOT NULL,
+    slug VARCHAR(255),
+    title VARCHAR(255),
+    description TEXT,
+    content TEXT,
+    created_at timestamptz,
+    updated_at timestamptz,
+    status VARCHAR(50),
+    cover_url VARCHAR(255),
+    author_name VARCHAR(255),
+    author_avatar_url VARCHAR(255),
+    locale VARCHAR(50)
+);

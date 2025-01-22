@@ -1,6 +1,6 @@
 import Blog from "@/components/blocks/blog";
 import { Blog as BlogType } from "@/types/blocks/blog";
-import { getAllBlogs } from "@/services/blog";
+import { getPostsByLocale } from "@/models/post";
 import { getTranslations } from "next-intl/server";
 
 export async function generateMetadata({
@@ -10,10 +10,10 @@ export async function generateMetadata({
 }) {
   const t = await getTranslations();
 
-  let canonicalUrl = `${process.env.NEXT_PUBLIC_WEB_URL}/blogs`;
+  let canonicalUrl = `${process.env.NEXT_PUBLIC_WEB_URL}/posts`;
 
   if (locale !== "en") {
-    canonicalUrl = `${process.env.NEXT_PUBLIC_WEB_URL}/${locale}/blogs`;
+    canonicalUrl = `${process.env.NEXT_PUBLIC_WEB_URL}/${locale}/posts`;
   }
 
   return {
@@ -28,12 +28,12 @@ export async function generateMetadata({
 export default async function ({ params }: { params: { locale: string } }) {
   const t = await getTranslations();
 
-  const blogs = await getAllBlogs({ locale: params.locale });
+  const posts = await getPostsByLocale(params.locale);
 
   const blog: BlogType = {
     title: t("blog.title"),
     description: t("blog.description"),
-    items: blogs,
+    items: posts,
     read_more_text: t("blog.read_more_text"),
   };
 
