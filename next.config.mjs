@@ -31,27 +31,6 @@ const nextConfig = {
   async redirects() {
     return [];
   },
-  webpack: (config, { isServer, nextRuntime }) => {
-    config.optimization.minimize = true;
-
-    if (nextRuntime === "edge") {
-      return config;
-    }
-
-    config.optimization.splitChunks = {
-      chunks: "all",
-      minSize: 20000,
-      maxSize: 70000,
-      cacheGroups: {
-        commons: {
-          test: /[\\/]node_modules[\\/]/,
-          name: "vendors",
-          chunks: "all",
-        },
-      },
-    };
-    return config;
-  },
 };
 
 // Make sure experimental mdx flag is enabled

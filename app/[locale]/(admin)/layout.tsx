@@ -1,8 +1,14 @@
-import DashboardLayout from "@/components/dashboard/layout";
+import Empty from "@/components/blocks/empty";
 import { ReactNode } from "react";
 import { Sidebar } from "@/types/blocks/sidebar";
+import { Suspense } from "react";
+import dynamic from "next/dynamic";
 import { getUserInfo } from "@/services/user";
 import { redirect } from "next/navigation";
+
+const DashboardLayout = dynamic(() => import("@/components/dashboard/layout"), {
+  ssr: true,
+});
 
 export default async function AdminLayout({
   children,
@@ -16,11 +22,7 @@ export default async function AdminLayout({
 
   const adminEmails = process.env.ADMIN_EMAILS?.split(",");
   if (!adminEmails?.includes(userInfo?.email)) {
-    return (
-      <div className="w-screen h-screen flex items-center justify-center">
-        No access
-      </div>
-    );
+    return <Empty message="No access" />;
   }
 
   const sidebar: Sidebar = {
@@ -30,6 +32,7 @@ export default async function AdminLayout({
         src: "/logo.png",
         alt: "ShipAny",
       },
+      url: "/admin",
     },
     nav: {
       items: [
@@ -86,5 +89,9 @@ export default async function AdminLayout({
     },
   };
 
-  return <DashboardLayout sidebar={sidebar}>{children}</DashboardLayout>;
+  return (
+    <Suspense fallback={<Empty message="Loading..." />}>
+      <DashboardLayout sidebar={sidebar}>{children}</DashboardLayout>
+    </Suspense>
+  );
 }
