@@ -1,14 +1,9 @@
+import DashboardLayout from "@/components/dashboard/layout";
 import Empty from "@/components/blocks/empty";
 import { ReactNode } from "react";
 import { Sidebar } from "@/types/blocks/sidebar";
-import { Suspense } from "react";
-import dynamic from "next/dynamic";
 import { getUserInfo } from "@/services/user";
 import { redirect } from "next/navigation";
-
-const DashboardLayout = dynamic(() => import("@/components/dashboard/layout"), {
-  ssr: true,
-});
 
 export default async function AdminLayout({
   children,
@@ -89,9 +84,5 @@ export default async function AdminLayout({
     },
   };
 
-  return (
-    <Suspense fallback={<Empty message="Loading..." />}>
-      <DashboardLayout sidebar={sidebar}>{children}</DashboardLayout>
-    </Suspense>
-  );
+  return <DashboardLayout sidebar={sidebar}>{children}</DashboardLayout>;
 }
