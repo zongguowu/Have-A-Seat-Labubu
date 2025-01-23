@@ -38,8 +38,18 @@ export default function ({ user }: { user: User }) {
         <DropdownMenuItem className="flex justify-center cursor-pointer">
           <Link href="/my-orders">{t("user.my_orders")}</Link>
         </DropdownMenuItem>
-
         <DropdownMenuSeparator />
+
+        <DropdownMenuItem className="flex justify-center cursor-pointer">
+          <Link href="/my-credits">{t("my_credits.title")}</Link>
+        </DropdownMenuItem>
+        <DropdownMenuSeparator />
+
+        <DropdownMenuItem className="flex justify-center cursor-pointer">
+          <Link href="/api-keys">{t("api_keys.title")}</Link>
+        </DropdownMenuItem>
+        <DropdownMenuSeparator />
+
         <DropdownMenuItem
           className="flex justify-center cursor-pointer"
           onClick={() => signOut()}

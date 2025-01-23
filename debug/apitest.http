@@ -1,8 +1,10 @@
 @baseUrl = http://localhost:3000
+@apiKey = sk-xxx
 
 ### ping api
 POST {{baseUrl}}/api/ping
 Content-Type: application/json
+Authorization: Bearer {{apiKey}}
 
 {
   "message": "hello"

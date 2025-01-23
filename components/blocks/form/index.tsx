@@ -83,12 +83,16 @@ export default function ({
   submit,
   loading,
 }: {
-  fields: FormFieldType[];
+  fields?: FormFieldType[];
   data?: any;
   passby?: any;
   submit?: FormSubmit;
   loading?: boolean;
 }) {
+  if (!fields) {
+    fields = [];
+  }
+
   const router = useRouter();
   const FormSchema = generateFormSchema(fields);
   const defaultValues: Record<string, string> = {};

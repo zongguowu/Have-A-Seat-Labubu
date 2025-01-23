@@ -386,6 +386,7 @@
         "description": "Get started with your first SaaS startup.",
         "features_title": "Includes",
         "features": [
+          "100 credits, valid for 1 month",
           "NextJS boilerplate",
           "SEO-friendly structure",
           "Payment with Stripe",
@@ -409,8 +410,8 @@
         },
         "product_id": "starter",
         "product_name": "ShipAny Boilerplate Starter",
-        "credits": 1,
-        "valid_months": -1
+        "credits": 100,
+        "valid_months": 1
       },
       {
         "title": "Standard",
@@ -418,6 +419,7 @@
         "label": "Popular",
         "features_title": "Everything in Starter, plus",
         "features": [
+          "200 credits, valid for 3 month",
           "Deploy with Vercel or Cloudflare",
           "Generation of Privacy & Terms",
           "Google Analytics Integration",
@@ -442,14 +444,15 @@
         },
         "product_id": "standard",
         "product_name": "ShipAny Boilerplate Standard",
-        "credits": 1,
-        "valid_months": -1
+        "credits": 200,
+        "valid_months": 3
       },
       {
         "title": "Premium",
         "description": "Ship Any AI SaaS Startups.",
         "features_title": "Everything in Standard, plus",
         "features": [
+          "300 credits, valid for 1 year",
           "Business Functions with AI",
           "User Center",
           "Credits System",
@@ -473,8 +476,8 @@
         },
         "product_id": "premium",
         "product_name": "ShipAny Boilerplate Premium",
-        "credits": 1,
-        "valid_months": -1
+        "credits": 300,
+        "valid_months": 12
       }
     ]
   },

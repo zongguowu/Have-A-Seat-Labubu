@@ -1,4 +1,4 @@
-import { getCreditsByUserUuid, insertCredit } from "@/models/credit";
+import { getUserValidCredits, insertCredit } from "@/models/credit";
 
 import { Credit } from "@/types/credit";
 import { UserCredits } from "@/types/user";
@@ -8,8 +8,9 @@ import { getSnowId } from "@/lib/hash";
 
 export enum CreditsTransType {
   NewUser = "new_user", // initial credits for new user
-  UserPay = "user_pay", // user pay for credits
+  OrderPay = "order_pay", // user pay for credits
   SystemAdd = "system_add", // system add credits
+  Ping = "ping", // cost for ping api
 }
 
 export enum CreditsAmount {
@@ -28,7 +29,7 @@ export async function getUserCredits(user_uuid: string): Promise<UserCredits> {
       user_credits.is_recharged = true;
     }
 
-    const credits = await getCreditsByUserUuid(user_uuid);
+    const credits = await getUserValidCredits(user_uuid);
     if (credits) {
       credits.forEach((v: Credit) => {
         user_credits.left_credits += v.credits;
@@ -53,25 +54,25 @@ export async function getUserCredits(user_uuid: string): Promise<UserCredits> {
 export async function decreaseCredits({
   user_uuid,
   trans_type,
-  cost_credits,
+  credits,
 }: {
   user_uuid: string;
   trans_type: CreditsTransType;
-  cost_credits: number;
+  credits: number;
 }) {
   try {
     let order_no = "";
     let expired_at = "";
     let left_credits = 0;
 
-    const credits = await getCreditsByUserUuid(user_uuid);
-    if (credits) {
-      for (let i = 0, l = credits.length; i < l; i++) {
-        const credit = credits[i];
+    const userCredits = await getUserValidCredits(user_uuid);
+    if (userCredits) {
+      for (let i = 0, l = userCredits.length; i < l; i++) {
+        const credit = userCredits[i];
         left_credits += credit.credits;
 
         // credit enough for cost
-        if (left_credits >= cost_credits) {
+        if (left_credits >= credits) {
           order_no = credit.order_no;
           expired_at = credit.expired_at || "";
           break;
@@ -86,7 +87,7 @@ export async function decreaseCredits({
       created_at: getIsoTimestr(),
       user_uuid: user_uuid,
       trans_type: trans_type,
-      credits: 0 - cost_credits,
+      credits: 0 - credits,
       order_no: order_no,
       expired_at: expired_at,
     };
@@ -100,34 +101,25 @@ export async function decreaseCredits({
 export async function increaseCredits({
   user_uuid,
   trans_type,
+  credits,
+  expired_at,
+  order_no,
 }: {
   user_uuid: string;
   trans_type: string;
+  credits: number;
+  expired_at?: string;
+  order_no?: string;
 }) {
   try {
-    let earn_credits: number = 0;
-    let expired_at = "";
-
-    if (trans_type === CreditsTransType.NewUser) {
-      earn_credits = CreditsAmount.NewUserGet;
-
-      const currentDate = new Date();
-      const oneYearLater = new Date(currentDate);
-      oneYearLater.setFullYear(currentDate.getFullYear() + 1);
-
-      expired_at = oneYearLater.toISOString();
-    } else {
-      throw new Error("invalid trans_type");
-    }
-
     const new_credit: Credit = {
       trans_no: getSnowId(),
       created_at: getIsoTimestr(),
       user_uuid: user_uuid,
       trans_type: trans_type,
-      credits: earn_credits,
-      order_no: "",
-      expired_at: expired_at,
+      credits: credits,
+      order_no: order_no || "",
+      expired_at: expired_at || "",
     };
     await insertCredit(new_credit);
   } catch (e) {

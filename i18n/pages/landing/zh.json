@@ -386,6 +386,7 @@
         "description": "开始您的第一个 SaaS 创业项目。",
         "features_title": "包含",
         "features": [
+          "100 积分，有效期 1 个月",
           "NextJS 模板",
           "SEO 友好结构",
           "Stripe 支付",
@@ -409,8 +410,8 @@
         },
         "product_id": "starter",
         "product_name": "ShipAny 模板入门版",
-        "credits": 1,
-        "valid_months": -1
+        "credits": 100,
+        "valid_months": 1
       },
       {
         "title": "标准版",
@@ -418,6 +419,7 @@
         "label": "热门",
         "features_title": "包含入门版所有功能，另加",
         "features": [
+          "200 积分，有效期 3 个月",
           "Vercel 或 Cloudflare 部署",
           "隐私和条款生成",
           "Google Analytics 集成",
@@ -442,14 +444,15 @@
         },
         "product_id": "standard",
         "product_name": "ShipAny 模板标准版",
-        "credits": 1,
-        "valid_months": -1
+        "credits": 200,
+        "valid_months": 3
       },
       {
         "title": "高级版",
         "description": "构建任何 AI SaaS 创业项目。",
         "features_title": "包含标准版所有功能，另加",
         "features": [
+          "300 积分，有效期 1 年",
           "AI 业务功能",
           "用户中心",
           "积分系统",
@@ -473,8 +476,8 @@
         },
         "product_id": "premium",
         "product_name": "ShipAny 模板高级版",
-        "credits": 1,
-        "valid_months": -1
+        "credits": 300,
+        "valid_months": 12
       }
     ]
   },
