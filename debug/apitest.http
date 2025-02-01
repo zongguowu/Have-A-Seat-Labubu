@@ -9,3 +9,14 @@ Authorization: Bearer {{apiKey}}
 {
   "message": "hello"
 }
+
+### gen image
+POST {{baseUrl}}/api/demo/gen-image
+Content-Type: application/json
+Authorization: Bearer {{apiKey}}
+
+{
+  "prompt": "a beautiful girl running with 2 cats",
+  "provider": "replicate",
+  "model": "black-forest-labs/flux-schnell"
+}
