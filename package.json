@@ -15,6 +15,7 @@
     "cf:deploy": "pnpm cf:build && wrangler pages deploy"
   },
   "dependencies": {
+    "@ai-sdk/deepseek": "^0.1.11",
     "@ai-sdk/openai": "^1.0.18",
     "@ai-sdk/openai-compatible": "^0.0.17",
     "@ai-sdk/provider": "^1.0.4",
@@ -49,7 +50,7 @@
     "@supabase/supabase-js": "^2.47.10",
     "@types/canvas-confetti": "^1.9.0",
     "@types/mdx": "^2.0.13",
-    "ai": "^4.0.33",
+    "ai": "^4.1.42",
     "canvas-confetti": "^1.9.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
