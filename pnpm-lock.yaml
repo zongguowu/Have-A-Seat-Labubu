@@ -12,20 +12,20 @@ importers:
         specifier: ^0.1.11
         version: 0.1.11(zod@3.24.1)
       '@ai-sdk/openai':
-        specifier: ^1.0.18
-        version: 1.0.18(zod@3.24.1)
+        specifier: ^1.1.13
+        version: 1.1.13(zod@3.24.1)
       '@ai-sdk/openai-compatible':
         specifier: ^0.0.17
         version: 0.0.17(zod@3.24.1)
       '@ai-sdk/provider':
-        specifier: ^1.0.4
-        version: 1.0.4
+        specifier: ^1.0.8
+        version: 1.0.8
       '@ai-sdk/provider-utils':
         specifier: ^2.0.7
         version: 2.0.7(zod@3.24.1)
       '@ai-sdk/replicate':
-        specifier: ^0.0.2
-        version: 0.0.2(zod@3.24.1)
+        specifier: ^0.1.10
+        version: 0.1.10(zod@3.24.1)
       '@aws-sdk/client-s3':
         specifier: ^3.740.0
         version: 3.740.0
@@ -57,7 +57,7 @@ importers:
         specifier: ^0.0.6
         version: 0.0.6(zod@3.24.1)
       '@radix-ui/react-accordion':
-        specifier: ^1.2.0
+        specifier: ^1.2.2
         version: 1.2.2(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-avatar':
         specifier: ^1.1.2
@@ -168,13 +168,13 @@ importers:
         specifier: ^4.78.1
         version: 4.78.1(zod@3.24.1)
       react:
-        specifier: ^18
+        specifier: ^18.3.1
         version: 18.3.1
       react-copy-to-clipboard:
         specifier: ^5.1.0
         version: 5.1.0(react@18.3.1)
       react-dom:
-        specifier: ^18
+        specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
       react-hook-form:
         specifier: ^7.54.2
@@ -198,7 +198,7 @@ importers:
         specifier: ^17.5.0
         version: 17.5.0
       tailwind-merge:
-        specifier: ^2.5.2
+        specifier: ^2.6.0
         version: 2.6.0
       tailwindcss-animate:
         specifier: ^1.0.7
@@ -223,28 +223,28 @@ importers:
         specifier: ^14.1.2
         version: 14.1.2
       '@types/node':
-        specifier: ^20
+        specifier: ^20.17.10
         version: 20.17.10
       '@types/react':
-        specifier: ^18
+        specifier: ^18.3.18
         version: 18.3.18
       '@types/react-copy-to-clipboard':
         specifier: ^5.0.7
         version: 5.0.7
       '@types/react-dom':
-        specifier: ^18
+        specifier: ^18.3.5
         version: 18.3.5(@types/react@18.3.18)
       '@types/uuid':
         specifier: ^10.0.0
         version: 10.0.0
       postcss:
-        specifier: ^8
+        specifier: ^8.4.49
         version: 8.4.49
       tailwindcss:
-        specifier: ^3.4.1
+        specifier: ^3.4.17
         version: 3.4.17(ts-node@10.9.1(@types/node@20.17.10)(typescript@5.7.2))
       typescript:
-        specifier: ^5
+        specifier: ^5.7.2
         version: 5.7.2
       vercel:
         specifier: 39.1.1
@@ -270,8 +270,8 @@ packages:
     peerDependencies:
       zod: ^3.0.0
 
-  '@ai-sdk/openai@1.0.18':
-    resolution: {integrity: sha512-bienqSVHbUqUcskm2FTIf2X+c481e85EASFfa78YogLqctZQtqPFKJuG5E7i59664Y5G91+LkzIh+1agS13BlA==}
+  '@ai-sdk/openai@1.1.13':
+    resolution: {integrity: sha512-IdChK1pJTW3NQis02PG/hHTG0gZSyQIMOLPt7f7ES56C0xH2yaKOU1Tp2aib7pZzWGwDlzTOW2h5TtAB8+V6CQ==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.0.0
@@ -327,8 +327,8 @@ packages:
       zod:
         optional: true
 
-  '@ai-sdk/replicate@0.0.2':
-    resolution: {integrity: sha512-OUInRhA+5m+nve8qFQ9+in2qRaln1MUNJU8e4uqnS4380qqyVAyGPf4x2kBg0Gg1fpZexDtsb049wsVh4lhHrA==}
+  '@ai-sdk/replicate@0.1.10':
+    resolution: {integrity: sha512-lTVEdEjf96wfkaNbe2pBYhL0b4t9VNcNSZ0L6DL1+2L6QvEJA5E3MRvcC0poAhv7EUZu7vyhxg8HKAn5MmQRzg==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.0.0
@@ -4238,10 +4238,10 @@ snapshots:
       '@ai-sdk/provider-utils': 2.1.9(zod@3.24.1)
       zod: 3.24.1
 
-  '@ai-sdk/openai@1.0.18(zod@3.24.1)':
+  '@ai-sdk/openai@1.1.13(zod@3.24.1)':
     dependencies:
-      '@ai-sdk/provider': 1.0.4
-      '@ai-sdk/provider-utils': 2.0.7(zod@3.24.1)
+      '@ai-sdk/provider': 1.0.8
+      '@ai-sdk/provider-utils': 2.1.9(zod@3.24.1)
       zod: 3.24.1
 
   '@ai-sdk/provider-utils@1.0.22(zod@3.24.1)':
@@ -4293,10 +4293,10 @@ snapshots:
       react: 18.3.1
       zod: 3.24.1
 
-  '@ai-sdk/replicate@0.0.2(zod@3.24.1)':
+  '@ai-sdk/replicate@0.1.10(zod@3.24.1)':
     dependencies:
-      '@ai-sdk/provider': 1.0.4
-      '@ai-sdk/provider-utils': 2.0.7(zod@3.24.1)
+      '@ai-sdk/provider': 1.0.8
+      '@ai-sdk/provider-utils': 2.1.9(zod@3.24.1)
       zod: 3.24.1
 
   '@ai-sdk/ui-utils@1.1.15(zod@3.24.1)':
