@@ -5,7 +5,7 @@
   "author": "idoubi",
   "homepage": "https://shipany.ai",
   "scripts": {
-    "dev": "NODE_NO_WARNINGS=1 next dev",
+    "dev": "cross-env NODE_NO_WARNINGS=1 next dev",
     "build": "next build",
     "start": "NODE_NO_WARNINGS=1 next start",
     "lint": "next lint",
@@ -93,6 +93,7 @@
     "@types/react-copy-to-clipboard": "^5.0.7",
     "@types/react-dom": "^18.3.5",
     "@types/uuid": "^10.0.0",
+    "cross-env": "^7.0.3",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.7.2",
