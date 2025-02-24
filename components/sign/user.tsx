@@ -36,17 +36,14 @@ export default function ({ user }: { user: User }) {
         <DropdownMenuSeparator />
 
         <DropdownMenuItem className="flex justify-center cursor-pointer">
-          <Link href="/my-orders">{t("user.my_orders")}</Link>
+          <Link href="/my-orders">{t("user.user_center")}</Link>
         </DropdownMenuItem>
         <DropdownMenuSeparator />
 
         <DropdownMenuItem className="flex justify-center cursor-pointer">
-          <Link href="/my-credits">{t("my_credits.title")}</Link>
-        </DropdownMenuItem>
-        <DropdownMenuSeparator />
-
-        <DropdownMenuItem className="flex justify-center cursor-pointer">
-          <Link href="/api-keys">{t("api_keys.title")}</Link>
+          <Link href="/admin/users" target="_blank">
+            {t("user.admin_system")}
+          </Link>
         </DropdownMenuItem>
         <DropdownMenuSeparator />
 
