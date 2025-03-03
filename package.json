@@ -12,7 +12,8 @@
     "analyze": "ANALYZE=true pnpm build",
     "cf:build": "npx @cloudflare/next-on-pages",
     "cf:preview": "pnpm cf:build && wrangler pages dev",
-    "cf:deploy": "pnpm cf:build && wrangler pages deploy"
+    "cf:deploy": "pnpm cf:build && wrangler pages deploy",
+    "docker:build": "docker build -f Dockerfile -t shipany-template-one:latest ."
   },
   "dependencies": {
     "@ai-sdk/deepseek": "^0.1.11",
