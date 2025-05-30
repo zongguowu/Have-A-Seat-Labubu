@@ -1,29 +1,29 @@
 {
   "metadata": {
-    "title": "Ship Any AI SaaS Startups in hours | ShipAny",
-    "description": "ShipAny is a NextJS boilerplate for building AI SaaS startups, Ship Fast with a variety of templates and components.",
-    "keywords": "ShipAny, AI SaaS Boilerplate, NextJS Boilerplate"
+    "title": "Professional AI Video Text Removal Tool | Remove Watermarks & Subtitles",
+    "description": "Use advanced AI technology to easily remove watermarks, subtitles, and any unwanted text from your videos. Support batch processing while maintaining original video quality.",
+    "keywords": "video text removal, watermark removal, AI video editing, subtitle removal, video processing"
   },
   "user": {
     "sign_in": "Sign In",
     "sign_out": "Sign Out",
-    "credits": "Credits",
+    "credits": "Credits Left",
     "api_keys": "API Keys",
     "my_orders": "My Orders",
     "user_center": "User Center",
-    "admin_system": "Admin System"
+    "admin_system": "Admin"
   },
   "sign_modal": {
     "sign_in_title": "Sign In",
-    "sign_in_description": "Sign in to your account",
+    "sign_in_description": "Sign in to start processing videos",
     "sign_up_title": "Sign Up",
-    "sign_up_description": "Create an account",
+    "sign_up_description": "Create an account to experience video processing",
     "email_title": "Email",
-    "email_placeholder": "Input your email here",
+    "email_placeholder": "Enter your email",
     "password_title": "Password",
-    "password_placeholder": "Input your password here",
-    "forgot_password": "Forgot password?",
-    "or": "Or",
+    "password_placeholder": "Enter your password",
+    "forgot_password": "Forgot Password?",
+    "or": "or",
     "continue": "Continue",
     "no_account": "Don't have an account?",
     "email_sign_in": "Sign in with Email",
@@ -34,31 +34,26 @@
   },
   "my_orders": {
     "title": "My Orders",
-    "description": "orders paid with ShipAny.",
+    "description": "View your video processing order history",
     "no_orders": "No orders found",
-    "tip": "",
-    "activate_order": "Activate Order",
-    "actived": "Activated",
-    "join_discord": "Join Discord",
-    "read_docs": "Read Docs",
+    "tip": "Start processing your first video",
     "table": {
       "order_no": "Order No",
       "email": "Email",
-      "product_name": "Product Name",
+      "product_name": "Plan Name",
       "amount": "Amount",
       "paid_at": "Paid At",
-      "github_username": "GitHub Username",
       "status": "Status"
     }
   },
   "my_credits": {
-    "title": "My Credits",
-    "left_tip": "left credits: {left_credits}",
-    "no_credits": "No credits records",
-    "recharge": "Recharge",
+    "title": "Processing Credits",
+    "left_tip": "Credits remaining: {left_credits}",
+    "no_credits": "No processing records",
+    "recharge": "Buy Credits",
     "table": {
-      "trans_no": "Trans No",
-      "trans_type": "Trans Type",
+      "trans_no": "Transaction No",
+      "trans_type": "Type",
       "credits": "Credits",
       "updated_at": "Updated At",
       "status": "Status"
@@ -66,8 +61,8 @@
   },
   "api_keys": {
     "title": "API Keys",
-    "tip": "Please keep your apikey safe to avoid leaks",
-    "no_api_keys": "No API Keys",
+    "tip": "Integrate video processing features into your application using API keys",
+    "no_api_keys": "No API keys",
     "create_api_key": "Create API Key",
     "table": {
       "name": "Name",
@@ -76,50 +71,42 @@
     },
     "form": {
       "name": "Name",
-      "name_placeholder": "API Key Name",
-      "submit": "Submit"
+      "name_placeholder": "Name your API key",
+      "submit": "Create"
     }
   },
-  "blog": {
-    "title": "Blog",
-    "description": "News, resources, and updates about ShipAny",
-    "read_more_text": "Read More"
-  },
-  "my_invites": {
-    "title": "My Invites",
-    "description": "View your invite records",
-    "no_invites": "No invite records found",
-    "my_invite_link": "My Invite Link",
-    "edit_invite_link": "Edit Invite Link",
-    "copy_invite_link": "Copy Invite Link",
-    "invite_code": "Invite Code",
-    "invite_tip": "Invite 1 friend to buy ShipAny, reward $50.",
-    "invite_balance": "Invite Reward Balance",
-    "total_invite_count": "Total Invite Count",
-    "total_paid_count": "Total Paid Count",
-    "total_award_amount": "Total Award Amount",
-    "update_invite_code": "Set Invite Code",
-    "update_invite_code_tip": "Input your custom invite code",
-    "update_invite_button": "Save",
-    "no_orders": "You can't invite others before you bought ShipAny",
-    "no_affiliates": "You're not allowed to invite others, please contact us to apply for permission.",
-    "table": {
-      "invite_time": "Invite Time",
-      "invite_user": "Invite User",
-      "status": "Status",
-      "reward_percent": "Reward Percent",
-      "reward_amount": "Reward Amount",
-      "pending": "Pending",
-      "completed": "Completed"
-    }
+  "video_process": {
+    "title": "Video Processing",
+    "upload_title": "Upload Video",
+    "upload_tip": "Click or drag video files here",
+    "supported_formats": "Supported formats: MP4, AVI, MOV, etc.",
+    "max_size": "Max file size: 500MB",
+    "processing": "Processing...",
+    "success": "Processing Complete",
+    "download": "Download Processed Video",
+    "preview": "Preview",
+    "batch_process": "Batch Process",
+    "select_area": "Select Area",
+    "auto_detect": "Auto Detect Text",
+    "manual_select": "Manual Select",
+    "start_process": "Start Processing",
+    "cancel_process": "Cancel"
   },
   "feedback": {
     "title": "Feedback",
-    "description": "We'd love to hear what went well or how we can improve the product experience.",
+    "description": "Help us improve our video processing results",
     "submit": "Submit",
     "loading": "Submitting...",
-    "contact_tip": "Other ways to contact us",
-    "rating_tip": "How do you feel about ShipAny?",
-    "placeholder": "Leave your words here..."
+    "contact_tip": "Contact Support",
+    "rating_tip": "How was the video processing result?",
+    "placeholder": "Please describe your experience or suggestions..."
+  },
+  "error_messages": {
+    "upload_failed": "Video upload failed",
+    "process_failed": "Processing failed",
+    "network_error": "Network error",
+    "file_too_large": "File size exceeds limit",
+    "unsupported_format": "Unsupported video format",
+    "insufficient_credits": "Insufficient credits"
   }
 }

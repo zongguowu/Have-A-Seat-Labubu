@@ -1,12 +1,12 @@
 {
-  "template": "shipany-template-one",
+  "template": "ai-video-text-remove",
   "theme": "light",
   "header": {
     "brand": {
-      "title": "ShipAny",
+      "title": "AI Video Text Remove",
       "logo": {
         "src": "/logo.png",
-        "alt": "ShipAny"
+        "alt": "AI Video Text Remove"
       },
       "url": "/"
     },
@@ -17,25 +17,21 @@
           "url": "/#feature",
           "icon": "RiSparkling2Line"
         },
+       
         {
-          "title": "Pricing",
-          "url": "/pricing",
-          "icon": "RiMoneyDollarCircleLine"
-        },
-        {
-          "title": "Showcase",
+          "title": "Tutorial",
           "url": "/showcase",
-          "icon": "RiApps2Line"
+          "icon": "RiVideoLine"
         }
       ]
     },
     "buttons": [
       {
-        "title": "Get ShipAny",
-        "url": "https://shipany.ai",
-        "target": "_blank",
-        "variant": "link",
-        "icon": "RiArrowRightUpLine"
+        "title": "Try Now",
+        "url": "/dashboard",
+        "target": "_self",
+        "variant": "default",
+        "icon": "RiPlayCircleLine"
       }
     ],
     "show_sign": true,
@@ -43,97 +39,57 @@
     "show_locale": true
   },
   "hero": {
-    "title": "Ship Any AI Startups in hours, not days",
-    "highlight_text": "Ship Any",
-    "description": "ShipAny is a NextJS boilerplate for building AI SaaS startups.<br/>Ship Fast with a variety of templates and components.",
+    "title": "Intelligently Remove Any Text from Videos ",
+    "highlight_text": "Ai Vedio Remove",
+    "description": "Use advanced AI technology to easily remove watermarks, subtitles, and any unwanted text from your videos.<br/>One-click operation for professional results.",
     "announcement": {
-      "label": "2025",
-      "title": "🎉 Happy New Year",
-      "url": "/#pricing"
+      "label": "New Feature",
+      "title": "🎉 Batch Processing Support",
+      "url": "/#feature"
     },
-    "tip": "🎁 50% off before 2025",
+    "tip": "🎁 Limited Time Offer: 50% Off for First-Time Users",
     "buttons": [
       {
         "title": "Get Started",
-        "icon": "RiFlashlightFill",
-        "url": "/#pricing",
+        "icon": "RiVideoAddFill",
+        "url": "/dashboard",
         "target": "_self",
         "variant": "default"
       },
       {
-        "title": "Join Discord",
-        "icon": "RiDiscordFill",
-        "url": "https://discord.gg/HQNnrzjZQS",
-        "target": "_blank",
+        "title": "View Demo",
+        "icon": "RiPlayCircleLine",
+        "url": "/showcase",
+        "target": "_self",
         "variant": "outline"
       }
     ],
     "show_happy_users": true,
-    "show_badge": false
-  },
-  "branding": {
-    "title": "ShipAny is built on the shoulders of giants",
-    "items": [
-      {
-        "title": "Next.js",
-        "image": {
-          "src": "/imgs/logos/nextjs.svg",
-          "alt": "Next.js"
-        }
-      },
-      {
-        "title": "React",
-        "image": {
-          "src": "/imgs/logos/react.svg",
-          "alt": "React"
-        }
-      },
-      {
-        "title": "TailwindCSS",
-        "image": {
-          "src": "/imgs/logos/tailwindcss.svg",
-          "alt": "TailwindCSS"
-        }
-      },
-      {
-        "title": "Shadcn/UI",
-        "image": {
-          "src": "/imgs/logos/shadcn.svg",
-          "alt": "Shadcn/UI"
-        }
-      },
-      {
-        "title": "Vercel",
-        "image": {
-          "src": "/imgs/logos/vercel.svg",
-          "alt": "Vercel"
-        }
-      }
-    ]
+    "show_badge": true
   },
   "introduce": {
     "name": "introduce",
-    "title": "What is ShipAny",
-    "label": "Introduce",
-    "description": "ShipAny is a NextJS boilerplate for building AI SaaS startups. Built in a variety of templates and components.",
+    "title": "Why Choose Our Tool",
+    "label": "Introduction",
+    "description": "Professional AI video text removal tool for perfect video content.",
     "image": {
-      "src": "/imgs/features/1.png"
+      "src": "/imgs/features/demo.png"
     },
     "items": [
       {
-        "title": "Ready-to-use Templates",
-        "description": "Choose from dozens of production-ready AI SaaS templates to quickly start your project.",
-        "icon": "RiNextjsFill"
+        "title": "Smart Detection",
+        "description": "Automatically detect all text content in videos, including static and dynamic text.",
+        "icon": "RiAiLine"
       },
       {
-        "title": "Infrastructure Setup",
-        "description": "Get instant access to scalable infrastructure with best practices built-in.",
-        "icon": "RiDatabase2Line"
+        "title": "Perfect Restoration",
+        "description": "Intelligently repair backgrounds while removing text, maintaining natural appearance.",
+        "icon": "RiMagicLine"
       },
       {
-        "title": "Quick Deployment",
-        "description": "Deploy your AI SaaS application to production in hours, not days.",
-        "icon": "RiCloudyFill"
+        "title": "Fast Processing",
+        "description": "Powerful cloud processing capabilities for quick video editing tasks.",
+        "icon": "RiThunderboltLine"
       }
     ]
   },
@@ -171,158 +127,124 @@
   },
   "usage": {
     "name": "usage",
-    "title": "How to Launch with ShipAny",
-    "description": "Get your AI SaaS startup running in three simple steps:",
-    "image": {
-      "src": "/imgs/features/1.png"
-    },
+    "title": "Three Simple Steps to Remove Video Text",
+    "description": "Quick start, experience professional video editing effects instantly:",
     "image_position": "left",
     "text_align": "center",
     "items": [
       {
-        "title": "Get ShipAny",
-        "description": "Buy ShipAny with a one-time payment. Check your email for the code and documentation.",
+        "title": "Upload Video",
+        "description": "Drag and drop or click to upload your video files to the platform.",
         "image": {
-          "src": "/imgs/features/5.png"
+          "src": "/imgs/features/upload.png"
         }
       },
       {
-        "title": "Start Your Project",
-        "description": "Read the documentation and clone the code of ShipAny. Start building your AI SaaS startup.",
+        "title": "Select Area",
+        "description": "Automatically detect text areas or manually select areas to process.",
         "image": {
-          "src": "/imgs/features/6.png"
+          "src": "/imgs/features/select.png"
         }
       },
       {
-        "title": "Customize Your Project",
-        "description": "Modify the template with your data and contents. Specific AI functionality needs.",
+        "title": "Start Processing",
+        "description": "Click the process button, AI automatically completes text removal and background repair.",
         "image": {
-          "src": "/imgs/features/7.png"
-        }
-      },
-      {
-        "title": "Deploy to Production",
-        "description": "Deploy your project to production with a few steps and start serving customers immediately.",
-        "image": {
-          "src": "/imgs/features/8.png"
+          "src": "/imgs/features/process.png"
         }
       }
     ]
   },
   "feature": {
     "name": "feature",
-    "title": "Key Features of ShipAny",
-    "description": "Everything you need to launch your AI SaaS startup quickly and efficiently.",
+    "title": "Powerful Features",
+    "description": "Professional video text removal solution at your service",
     "items": [
       {
-        "title": "Next.js Boilerplate",
-        "description": "Production-ready Next.js templates with SEO-friendly structure and i18n support.",
-        "icon": "RiNextjsFill"
+        "title": "Batch Processing",
+        "description": "Process multiple videos simultaneously to improve efficiency.",
+        "icon": "RiVideoAddLine"
       },
       {
-        "title": "Authentication & Payments",
-        "description": "Integrated Google OAuth, one-tap login, and Stripe payment processing.",
-        "icon": "RiKey2Fill"
+        "title": "Smart Detection",
+        "description": "Accurately identify various types of text in videos, including watermarks and subtitles.",
+        "icon": "RiScanLine"
       },
       {
-        "title": "Data Infrastructure",
-        "description": "Built-in Supabase integration for reliable and scalable data storage.",
-        "icon": "RiDatabase2Line"
+        "title": "Background Repair",
+        "description": "Use AI technology to intelligently repair backgrounds after text removal.",
+        "icon": "RiPaintBrushLine"
       },
       {
-        "title": "One-Click Deployment",
-        "description": "Seamless deployment to Vercel or Cloudflare with automated setup.",
-        "icon": "RiCloudy2Fill"
+        "title": "Format Support",
+        "description": "Support multiple video formats, including MP4, AVI, MOV, and more.",
+        "icon": "RiFileVideoLine"
       },
       {
-        "title": "Business Analytics",
-        "description": "Integrated Google Analytics and Search Console for tracking growth.",
-        "icon": "RiBarChart2Line"
+        "title": "Quality Preservation",
+        "description": "Maintain original clarity and quality in processed videos.",
+        "icon": "RiHdLine"
       },
       {
-        "title": "AI-Ready Infrastructure",
-        "description": "Pre-configured AI integration with built-in credits system and API sales.",
-        "icon": "RiRobot2Line"
+        "title": "Cloud Storage",
+        "description": "Secure cloud storage for accessing your video projects anytime.",
+        "icon": "RiCloudLine"
       }
     ]
   },
   "stats": {
     "name": "stats",
     "label": "Stats",
-    "title": "People Love ShipAny",
-    "description": "for it's easy to use and fast to ship.",
+    "title": "Trusted Video Processing Tool",
+    "description": "Professional video text removal service for users worldwide",
     "icon": "FaRegHeart",
     "items": [
       {
-        "title": "Trusted by",
-        "label": "99+",
-        "description": "Customers"
+        "title": "Processed Videos",
+        "label": "1M+",
+        "description": "Success Cases"
       },
       {
-        "title": "Built in",
+        "title": "Supported Formats",
         "label": "20+",
-        "description": "Components"
+        "description": "Video Formats"
       },
       {
-        "title": "Ship Fast in",
-        "label": "5",
-        "description": "Minutes"
+        "title": "Processing Speed",
+        "label": "5min",
+        "description": "Average Time"
       }
     ]
   },
   "testimonial": {
     "name": "testimonial",
     "label": "Testimonial",
-    "title": "What Users Say About ShipAny",
-    "description": "Hear from developers and founders who launched their AI startups with ShipAny.",
+    "title": "What Users Say About Our Tool",
+    "description": "Real feedback from users across different industries",
     "icon": "GoThumbsup",
     "items": [
       {
-        "title": "David Chen",
-        "label": "Founder of AIWallpaper.shop",
-        "description": "ShipAny saved us months of development time. We launched our AI wallpaper business in just 2 days and got our first paying customer within a week!",
+        "title": "John Smith",
+        "label": "Video Creator",
+        "description": "This tool saved me tons of time by perfectly removing watermarks from videos with no quality loss. Recommended for all video creators!",
         "image": {
           "src": "/imgs/users/1.png"
         }
       },
       {
-        "title": "Rachel Kim",
-        "label": "CTO at HeyBeauty.ai",
-        "description": "The pre-built AI infrastructure is a game-changer. We didn't have to worry about architecture - just focused on our AI beauty tech and went live fast.",
+        "title": "Sarah Chen",
+        "label": "Content Creator",
+        "description": "The batch processing feature is amazing! Processing multiple videos at once greatly improved my workflow. AI restoration looks very natural.",
         "image": {
           "src": "/imgs/users/2.png"
         }
       },
       {
-        "title": "Marcus Thompson",
-        "label": "Solo Developer",
-        "description": "As a solo developer, ShipAny gave me everything I needed - auth, payments, AI integration, and beautiful UI. Launched my SaaS in a weekend!",
+        "title": "Prof. Williams",
+        "label": "Educator",
+        "description": "Used it for educational videos, easily removed original subtitles and added new translations. Great help for localizing educational content.",
         "image": {
           "src": "/imgs/users/3.png"
-        }
-      },
-      {
-        "title": "Sofia Garcia",
-        "label": "CEO of Melodisco",
-        "description": "The templates are production-ready and highly customizable. We built our AI music platform in hours instead of months. Incredible time-to-market!",
-        "image": {
-          "src": "/imgs/users/4.png"
-        }
-      },
-      {
-        "title": "James Wilson",
-        "label": "Tech Lead at GPTs.works",
-        "description": "ShipAny's infrastructure is rock-solid. We scaled from 0 to 10k users without touching the backend. Best investment for our AI startup.",
-        "image": {
-          "src": "/imgs/users/5.png"
-        }
-      },
-      {
-        "title": "Anna Zhang",
-        "label": "Startup Founder",
-        "description": "From idea to launch in 3 days! ShipAny's templates and deployment tools made it possible to test our AI business concept incredibly fast.",
-        "image": {
-          "src": "/imgs/users/6.png"
         }
       }
     ]
@@ -330,50 +252,42 @@
   "faq": {
     "name": "faq",
     "label": "FAQ",
-    "title": "Frequently Asked Questions About ShipAny",
-    "description": "Have another question? Contact us on Discord or by email.",
+    "title": "Frequently Asked Questions About Video Text Removal",
+    "description": "Have more questions? Contact us via live chat or email.",
     "items": [
       {
-        "title": "What exactly is ShipAny and how does it work?",
-        "description": "ShipAny is a comprehensive NextJS boilerplate designed specifically for building AI SaaS startups. It provides ready-to-use templates, infrastructure setup, and deployment tools that help you launch your AI business in hours instead of days."
+        "title": "What video formats are supported?",
+        "description": "We support all major video formats including MP4, AVI, MOV, WMV, FLV, and more. Perfect for videos from both mobile devices and professional equipment."
       },
       {
-        "title": "Do I need advanced technical skills to use ShipAny?",
-        "description": "While basic programming knowledge is helpful, ShipAny is designed to be developer-friendly. Our templates and documentation make it easy to get started, even if you're not an expert in AI or cloud infrastructure."
+        "title": "How is the video quality after processing?",
+        "description": "Our advanced AI technology ensures that video quality remains intact while removing text. Background restoration is natural with no visible processing artifacts."
       },
       {
-        "title": "What types of AI SaaS can I build with ShipAny?",
-        "description": "ShipAny supports a wide range of AI applications, from content generation to data analysis tools. Our templates cover popular use cases like AI chatbots, content generators, image processing apps, and more."
+        "title": "How long does it take to process a video?",
+        "description": "Processing time depends on video length and the amount of text to be removed. Typically, a 5-minute video takes about 3-5 minutes to process."
       },
       {
-        "title": "How long does it typically take to launch with ShipAny?",
-        "description": "With ShipAny, you can have a working prototype in hours and a production-ready application in hours. Our one-click deployment and pre-configured infrastructure significantly reduce the traditional months-long development cycle."
-      },
-      {
-        "title": "What's included in the ShipAny infrastructure?",
-        "description": "ShipAny provides a complete infrastructure stack including authentication, database setup, API integration, payment processing, and scalable cloud deployment. Everything is pre-configured following industry best practices."
-      },
-      {
-        "title": "Can I customize the templates to match my brand?",
-        "description": "Absolutely! All ShipAny templates are fully customizable. You can modify the design, features, and functionality to match your brand identity and specific business requirements while maintaining the robust underlying infrastructure."
+        "title": "How do you ensure my video's security?",
+        "description": "We use enterprise-grade encryption to protect your video files. All uploaded content is stored on secure cloud servers and automatically deleted within 24 hours after processing."
       }
     ]
   },
   "cta": {
     "name": "cta",
-    "title": "Ship your first AI SaaS Startup",
-    "description": "Start from here, ship with ShipAny.",
+    "title": "Start Improving Your Video Content",
+    "description": "Experience professional video text removal tool now",
     "buttons": [
       {
-        "title": "Get ShipAny",
-        "url": "https://shipany.ai",
-        "target": "_blank",
-        "icon": "GoArrowUpRight"
+        "title": "Free Trial",
+        "url": "/dashboard",
+        "target": "_self",
+        "icon": "RiPlayCircleLine"
       },
       {
-        "title": "Read Document",
-        "url": "https://docs.shipany.ai",
-        "target": "_blank",
+        "title": "View Pricing",
+        "url": "/pricing",
+        "target": "_self",
         "variant": "outline"
       }
     ]
@@ -381,19 +295,19 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "ShipAny",
-      "description": "ShipAny is a NextJS boilerplate for building AI SaaS startups. Ship Fast with a variety of templates and components.",
+      "title": "AI Video Text Remove",
+      "description": "Professional AI video editing tool helping you easily remove any text content from videos.",
       "logo": {
         "src": "/logo.png",
-        "alt": "ShipAny"
+        "alt": "AI Video Text Remove"
       },
       "url": "/"
     },
-    "copyright": "© 2025 • ShipAny All rights reserved.",
+    "copyright": "© 2024 • AI Video Text Remove. All rights reserved.",
     "nav": {
       "items": [
         {
-          "title": "About",
+          "title": "Quick Links",
           "children": [
             {
               "title": "Features",
@@ -401,54 +315,34 @@
               "target": "_self"
             },
             {
-              "title": "Showcases",
-              "url": "/#showcase",
+              "title": "Tutorial",
+              "url": "/tutorial",
               "target": "_self"
             },
             {
-              "title": "Pricing",
-              "url": "/#pricing",
+              "title": "Pricing Plans",
+              "url": "/pricing",
               "target": "_self"
             }
           ]
         },
         {
-          "title": "Resources",
+          "title": "Support",
           "children": [
             {
-              "title": "Documents",
-              "url": "https://docs.shipany.ai",
-              "target": "_blank"
+              "title": "Help Center",
+              "url": "/help",
+              "target": "_self"
             },
             {
-              "title": "Components",
-              "url": "https://shipany.ai/components",
-              "target": "_blank"
+              "title": "FAQ",
+              "url": "/faq",
+              "target": "_self"
             },
             {
-              "title": "Templates",
-              "url": "https://shipany.ai/templates",
-              "target": "_blank"
-            }
-          ]
-        },
-        {
-          "title": "Friends",
-          "children": [
-            {
-              "title": "ThinkAny",
-              "url": "https://thinkany.ai",
-              "target": "_blank"
-            },
-            {
-              "title": "HeyBeauty",
-              "url": "https://heybeauty.ai",
-              "target": "_blank"
-            },
-            {
-              "title": "Pagen",
-              "url": "https://pagen.so",
-              "target": "_blank"
+              "title": "Contact Us",
+              "url": "/contact",
+              "target": "_self"
             }
           ]
         }
@@ -457,27 +351,15 @@
     "social": {
       "items": [
         {
-          "title": "X",
-          "icon": "RiTwitterXFill",
-          "url": "https://x.com/shipanyai",
-          "target": "_blank"
-        },
-        {
-          "title": "Github",
-          "icon": "RiGithubFill",
-          "url": "https://github.com/shipanyai",
-          "target": "_blank"
-        },
-        {
-          "title": "Discord",
-          "icon": "RiDiscordFill",
-          "url": "https://discord.gg/HQNnrzjZQS",
-          "target": "_blank"
+          "title": "WeChat",
+          "icon": "RiWechatFill",
+          "url": "#",
+          "target": "_self"
         },
         {
           "title": "Email",
           "icon": "RiMailLine",
-          "url": "mailto:support@shipany.ai",
+          "url": "mailto:support@example.com",
           "target": "_self"
         }
       ]

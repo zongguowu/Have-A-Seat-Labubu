@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "title": "几小时内构建任何 AI SaaS 创业项目 | ShipAny",
-    "description": "ShipAny 是一个用于构建 AI SaaS 创业项目的 NextJS 模板，提供各种模板和组件，帮助您快速启动。",
-    "keywords": "ShipAny, AI SaaS 模板, NextJS 模板"
+    "title": "专业的AI视频文字移除工具 | 一键去除视频水印和字幕",
+    "description": "使用先进的AI技术，轻松移除视频中的水印、字幕和任何不需要的文字。支持批量处理，保持原始视频质量。",
+    "keywords": "视频文字移除, 视频水印去除, AI视频编辑, 字幕移除, 视频处理"
   },
   "user": {
     "sign_in": "登录",
     "sign_out": "退出登录",
-    "credits": "额度",
+    "credits": "剩余次数",
     "api_keys": "API 密钥",
     "my_orders": "我的订单",
     "user_center": "用户中心",
@@ -15,9 +15,9 @@
   },
   "sign_modal": {
     "sign_in_title": "登录",
-    "sign_in_description": "登录您的账户",
+    "sign_in_description": "登录您的账户开始处理视频",
     "sign_up_title": "注册",
-    "sign_up_description": "创建新账户",
+    "sign_up_description": "创建新账户体验视频处理",
     "email_title": "邮箱",
     "email_placeholder": "请输入您的邮箱",
     "password_title": "密码",
@@ -34,40 +34,35 @@
   },
   "my_orders": {
     "title": "我的订单",
-    "description": "在 ShipAny 上购买的订单。",
-    "no_orders": "未找到订单",
-    "tip": "",
-    "activate_order": "激活订单",
-    "actived": "已激活",
-    "join_discord": "加入 Discord",
-    "read_docs": "阅读文档",
+    "description": "查看您的视频处理订单记录",
+    "no_orders": "暂无订单记录",
+    "tip": "开始处理您的第一个视频",
     "table": {
       "order_no": "订单号",
       "email": "邮箱",
-      "product_name": "产品名称",
+      "product_name": "套餐名称",
       "amount": "金额",
       "paid_at": "支付时间",
-      "github_username": "GitHub 用户名",
       "status": "状态"
     }
   },
   "my_credits": {
-    "title": "我的积分",
-    "left_tip": "剩余积分: {left_credits}",
-    "no_credits": "没有积分记录",
-    "recharge": "充值",
+    "title": "处理次数",
+    "left_tip": "剩余可处理次数: {left_credits}",
+    "no_credits": "暂无处理记录",
+    "recharge": "购买次数",
     "table": {
       "trans_no": "交易号",
-      "trans_type": "交易类型",
-      "credits": "积分",
+      "trans_type": "类型",
+      "credits": "次数",
       "updated_at": "更新时间",
       "status": "状态"
     }
   },
   "api_keys": {
     "title": "API 密钥",
-    "tip": "请妥善保管您的 API 密钥，避免泄露",
-    "no_api_keys": "没有 API 密钥",
+    "tip": "使用API密钥将视频处理功能集成到您的应用中",
+    "no_api_keys": "暂无 API 密钥",
     "create_api_key": "创建 API 密钥",
     "table": {
       "name": "名称",
@@ -76,50 +71,42 @@
     },
     "form": {
       "name": "名称",
-      "name_placeholder": "API 密钥名称",
-      "submit": "提交"
+      "name_placeholder": "为您的API密钥命名",
+      "submit": "创建"
     }
   },
-  "blog": {
-    "title": "博客",
-    "description": "关于 ShipAny 的新闻、资源和更新",
-    "read_more_text": "阅读更多"
-  },
-  "my_invites": {
-    "title": "我的邀请",
-    "description": "查看您的邀请记录",
-    "no_invites": "未找到邀请记录",
-    "my_invite_link": "我的邀请链接",
-    "edit_invite_link": "编辑邀请链接",
-    "copy_invite_link": "复制邀请链接",
-    "invite_code": "邀请码",
-    "invite_tip": "每邀请 1 位朋友购买 ShipAny，奖励 $50。",
-    "invite_balance": "邀请奖励余额",
-    "total_invite_count": "总邀请人数",
-    "total_paid_count": "已充值人数",
-    "total_award_amount": "总奖励金额",
-    "update_invite_code": "设置邀请码",
-    "update_invite_code_tip": "输入你的自定义邀请码",
-    "update_invite_button": "保存",
-    "no_orders": "你需要先购买过 ShipAny 才能邀请朋友",
-    "no_affiliates": "你暂无邀请朋友的权限，请联系我们申请开通。",
-    "table": {
-      "invite_time": "邀请时间",
-      "invite_user": "邀请用户",
-      "status": "状态",
-      "reward_percent": "奖励比例",
-      "reward_amount": "奖励金额",
-      "pending": "已注册，未支付",
-      "completed": "已支付"
-    }
+  "video_process": {
+    "title": "视频处理",
+    "upload_title": "上传视频",
+    "upload_tip": "点击或拖拽视频文件到此处",
+    "supported_formats": "支持格式：MP4, AVI, MOV 等",
+    "max_size": "单个文件最大 500MB",
+    "processing": "处理中...",
+    "success": "处理完成",
+    "download": "下载处理后的视频",
+    "preview": "预览",
+    "batch_process": "批量处理",
+    "select_area": "选择区域",
+    "auto_detect": "自动检测文字",
+    "manual_select": "手动选择",
+    "start_process": "开始处理",
+    "cancel_process": "取消"
   },
   "feedback": {
     "title": "反馈",
-    "description": "我们很乐意听取您对产品的看法或如何改进产品体验。",
+    "description": "帮助我们改进视频处理效果",
     "submit": "提交",
     "loading": "提交中...",
-    "contact_tip": "其他联系方式",
-    "rating_tip": "您对 ShipAny 的看法如何？",
-    "placeholder": "在这里留下您的反馈..."
+    "contact_tip": "联系客服",
+    "rating_tip": "视频处理效果如何？",
+    "placeholder": "请描述您的使用体验或建议..."
+  },
+  "error_messages": {
+    "upload_failed": "视频上传失败",
+    "process_failed": "处理失败",
+    "network_error": "网络错误",
+    "file_too_large": "文件大小超出限制",
+    "unsupported_format": "不支持的视频格式",
+    "insufficient_credits": "剩余次数不足"
   }
 }
