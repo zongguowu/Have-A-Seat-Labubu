@@ -31,6 +31,9 @@ const nextConfig = {
   async redirects() {
     return [];
   },
+  experimental: {
+    optimizeFonts: true,
+  },
 };
 
 // Make sure experimental mdx flag is enabled

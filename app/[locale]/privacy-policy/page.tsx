@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Ai Video Editing Tool To Remove Text",
-  description: "Privacy policy for Ai Video Editing Tool To Remove Text - Learn how we protect your privacy and handle your data.",
+  title: "Privacy Policy | Have A Seat Labubu",
+  description: "Privacy policy for Have A Seat Labubu - Learn how we protect your privacy and handle your data.",
 };
 
 export default function PrivacyPolicy() {
@@ -18,7 +18,7 @@ export default function PrivacyPolicy() {
         <section className="space-y-4">
           <h2 className="text-2xl font-semibold">1. Introduction</h2>
           <p>
-            Welcome to Ai Video Editing Tool To Remove Text ("we," "our," or "us"). We are committed to protecting your privacy and handling your data with transparency and care. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our intelligent video text removal service at aivideoeditingtooltoremovetext.com.
+            Welcome to Have A Seat Labubu ("we," "our," or "us"). We are committed to protecting your privacy and handling your data with transparency and care. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our services at haveaseatlabubu.cc.
           </p>
         </section>
 
@@ -28,8 +28,8 @@ export default function PrivacyPolicy() {
           <ul className="list-disc pl-6 space-y-2">
             <li>Account information (email address, password)</li>
             <li>Payment information (processed securely through our payment providers)</li>
-            <li>Video files you upload for text removal processing</li>
-            <li>Selected text areas and processing preferences</li>
+            <li>Shipping and delivery information</li>
+            <li>Product preferences and order history</li>
             <li>Feedback and correspondence</li>
           </ul>
 
@@ -46,37 +46,22 @@ export default function PrivacyPolicy() {
           <h2 className="text-2xl font-semibold">3. How We Use Your Information</h2>
           <p>We use your information to:</p>
           <ul className="list-disc pl-6 space-y-2">
-            <li>Provide our intelligent video text removal service</li>
-            <li>Process and store your videos temporarily</li>
-            <li>Handle payments and maintain your account</li>
-            <li>Support batch processing of multiple videos</li>
-            <li>Improve our AI detection and background repair capabilities</li>
-            <li>Send service updates and promotional content</li>
+            <li>Process and fulfill your orders</li>
+            <li>Provide customer support and after-sales service</li>
+            <li>Send order updates and shipping notifications</li>
+            <li>Improve our products and services</li>
+            <li>Send promotional content and special offers</li>
             <li>Ensure security and prevent fraud</li>
           </ul>
         </section>
 
         <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">4. Video Data Processing</h2>
-          <p>
-            When you upload videos to our service:
-          </p>
-          <ul className="list-disc pl-6 space-y-2">
-            <li>Videos are processed securely using our advanced AI technology</li>
-            <li>We support multiple video formats including MP4, AVI, MOV, and more</li>
-            <li>Original and processed videos are stored securely in our cloud storage</li>
-            <li>We maintain the original video quality during processing</li>
-            <li>All video processing is done using automated AI systems for text detection and background repair</li>
-          </ul>
-        </section>
-
-        <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">5. Data Security</h2>
+          <h2 className="text-2xl font-semibold">4. Data Security</h2>
           <p>
             We implement appropriate technical and organizational measures to protect your data, including:
           </p>
           <ul className="list-disc pl-6 space-y-2">
-            <li>Secure cloud storage for your video projects</li>
+            <li>Secure cloud storage for your information</li>
             <li>Encryption of data in transit and at rest</li>
             <li>Regular security assessments</li>
             <li>Access controls and authentication measures</li>
@@ -85,7 +70,7 @@ export default function PrivacyPolicy() {
         </section>
 
         <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">6. Your Rights</h2>
+          <h2 className="text-2xl font-semibold">5. Your Rights</h2>
           <p>You have the right to:</p>
           <ul className="list-disc pl-6 space-y-2">
             <li>Access your personal data</li>
@@ -97,20 +82,20 @@ export default function PrivacyPolicy() {
         </section>
 
         <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">7. Contact Us</h2>
+          <h2 className="text-2xl font-semibold">6. Contact Us</h2>
           <p>
             If you have any questions about this Privacy Policy or our data practices, please contact us at:
           </p>
           <p className="mt-2">
-            Email: support@aivideoeditingtooltoremovetext.com
+            Email: support@haveaseatlabubu.cc
           </p>
           <p>
-            Website: aivideoeditingtooltoremovetext.com
+            Website: haveaseatlabubu.cc
           </p>
         </section>
 
         <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">8. Changes to This Policy</h2>
+          <h2 className="text-2xl font-semibold">7. Changes to This Policy</h2>
           <p>
             We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date at the top of this Policy.
           </p>

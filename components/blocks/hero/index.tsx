@@ -18,43 +18,45 @@ export default function Hero({ hero }: { hero: HeroType }) {
   }
 
   return (
-    <>
+    <div className="relative overflow-hidden bg-white">
       <HeroBg />
-      <section className="py-24">
+      <section className="relative py-32">
         <div className="container">
           <div className="text-center">
             {hero.announcement && (
               <Link
                 href={hero.announcement.url as any}
-                className="mx-auto mb-3 inline-flex items-center gap-3 rounded-full border px-2 py-1 text-sm"
+                className="mx-auto mb-6 inline-flex items-center gap-3 rounded-full border border-primary/20 bg-primary/5 px-4 py-2 text-sm font-medium text-primary transition-colors hover:bg-primary/10"
               >
                 {hero.announcement.label && (
-                  <Badge>{hero.announcement.label}</Badge>
+                  <Badge variant="secondary" className="bg-primary/10 text-primary">
+                    {hero.announcement.label}
+                  </Badge>
                 )}
                 {hero.announcement.title}
               </Link>
             )}
 
             {texts && texts.length > 1 ? (
-              <h1 className="mx-auto mb-3 mt-4 max-w-6xl text-balance text-4xl font-bold lg:mb-7 lg:text-7xl">
+              <h1 className="mx-auto mb-6 mt-4 max-w-6xl text-balance text-5xl font-bold leading-tight lg:mb-8 lg:text-8xl">
                 {texts[0]}
-                <span className="bg-linear-to-r from-primary via-primary to-primary bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-primary to-primary/80 bg-clip-text text-transparent">
                   {highlightText}
                 </span>
                 {texts[1]}
               </h1>
             ) : (
-              <h1 className="mx-auto mb-3 mt-4 max-w-6xl text-balance text-4xl font-bold lg:mb-7 lg:text-7xl">
+              <h1 className="mx-auto mb-6 mt-4 max-w-6xl text-balance text-5xl font-bold leading-tight lg:mb-8 lg:text-8xl">
                 {hero.title}
               </h1>
             )}
 
             <p
-              className="m mx-auto max-w-3xl text-muted-foreground lg:text-xl"
+              className="mx-auto max-w-3xl text-lg text-muted-foreground lg:text-xl"
               dangerouslySetInnerHTML={{ __html: hero.description || "" }}
             />
             {hero.buttons && (
-              <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
+              <div className="mt-10 flex flex-col justify-center gap-4 sm:flex-row">
                 {hero.buttons.map((item, i) => {
                   return (
                     <Link
@@ -64,11 +66,11 @@ export default function Hero({ hero }: { hero: HeroType }) {
                       className="flex items-center"
                     >
                       <Button
-                        className="w-full"
+                        className="w-full rounded-full px-8 py-6 text-lg font-medium shadow-lg transition-all hover:scale-105"
                         size="lg"
                         variant={item.variant || "default"}
                       >
-                        {item.icon && <Icon name={item.icon} className="" />}
+                        {item.icon && <Icon name={item.icon} className="mr-2" />}
                         {item.title}
                       </Button>
                     </Link>
@@ -83,6 +85,6 @@ export default function Hero({ hero }: { hero: HeroType }) {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }

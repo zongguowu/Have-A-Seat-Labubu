@@ -1,41 +1,41 @@
 {
-  "template": "ai-video-text-remove",
+  "template": "have-a-seat-labubu",
   "theme": "light",
   "header": {
     "brand": {
-      "title": "AI视频文字移除工具",
+      "title": "Have A Seat Labubu",
       "logo": {
         "src": "/logo.png",
-        "alt": "AI视频文字移除工具"
+        "alt": "Have A Seat Labubu"
       },
       "url": "/"
     },
     "nav": {
       "items": [
         {
-          "title": "功能特点",
-          "url": "/#feature",
-          "icon": "RiSparkling2Line"
+          "title": "产品系列",
+          "url": "/#products",
+          "icon": "RiShoppingBagLine"
         },
         {
-          "title": "定价",
-          "url": "/pricing",
-          "icon": "RiMoneyDollarCircleLine"
+          "title": "Blog",
+          "url": "/blog",
+          "icon": "RiArticleLine"
         },
         {
-          "title": "使用教程",
-          "url": "/showcase",
-          "icon": "RiVideoLine"
+          "title": "关于我们",
+          "url": "/#about",
+          "icon": "RiInformationLine"
         }
       ]
     },
     "buttons": [
       {
-        "title": "立即体验",
-        "url": "/dashboard",
+        "title": "立即购买",
+        "url": "/shop",
         "target": "_self",
         "variant": "default",
-        "icon": "RiPlayCircleLine"
+        "icon": "RiShoppingCartLine"
       }
     ],
     "show_sign": true,
@@ -43,27 +43,27 @@
     "show_locale": true
   },
   "hero": {
-    "title": "智能去除视频中的任何文字，保持画面完美清晰",
-    "highlight_text": "智能去除",
-    "description": "使用先进的AI技术，轻松移除视频中的水印、字幕和任何不需要的文字。<br/>一键操作，让您的视频更加专业。",
+    "title": "Have A Seat Labubu - 让生活更有趣",
+    "highlight_text": "Have A Seat Labubu",
+    "description": "独特的艺术设计，精致的工艺制作，<br/>为您的空间增添一份独特的艺术气息。",
     "announcement": {
-      "label": "新功能",
-      "title": "🎉 支持批量处理",
-      "url": "/#feature"
+      "label": "新品",
+      "title": "🎉 2024春季限定系列现已发售",
+      "url": "/#new"
     },
-    "tip": "🎁 限时优惠：首次使用立减50%",
+    "tip": "🎁 限时优惠：购买任意产品赠送精美周边",
     "buttons": [
       {
-        "title": "开始使用",
-        "icon": "RiVideoAddFill",
-        "url": "/dashboard",
+        "title": "立即购买",
+        "icon": "RiShoppingCartFill",
+        "url": "/shop",
         "target": "_self",
         "variant": "default"
       },
       {
-        "title": "查看演示",
-        "icon": "RiPlayCircleLine",
-        "url": "/showcase",
+        "title": "了解更多",
+        "icon": "RiInformationLine",
+        "url": "/#about",
         "target": "_self",
         "variant": "outline"
       }
@@ -71,267 +71,184 @@
     "show_happy_users": true,
     "show_badge": true
   },
-  "branding": {
-    "title": "ShipAny 建立在巨人的肩膀上",
-    "items": [
-      {
-        "title": "Next.js",
-        "image": {
-          "src": "/imgs/logos/nextjs.svg",
-          "alt": "Next.js"
-        }
-      },
-      {
-        "title": "React",
-        "image": {
-          "src": "/imgs/logos/react.svg",
-          "alt": "React"
-        }
-      },
-      {
-        "title": "TailwindCSS",
-        "image": {
-          "src": "/imgs/logos/tailwindcss.svg",
-          "alt": "TailwindCSS"
-        }
-      },
-      {
-        "title": "Shadcn/UI",
-        "image": {
-          "src": "/imgs/logos/shadcn.svg",
-          "alt": "Shadcn/UI"
-        }
-      },
-      {
-        "title": "Vercel",
-        "image": {
-          "src": "/imgs/logos/vercel.svg",
-          "alt": "Vercel"
-        }
-      }
-    ]
-  },
   "introduce": {
-    "name": "introduce",
-    "title": "为什么选择我们的工具",
-    "label": "介绍",
-    "description": "专业的AI视频文字移除工具，让您的视频内容更加完美。",
+    "name": "about",
+    "title": "关于 Have A Seat Labubu",
+    "label": "品牌故事",
+    "description": "Have A Seat Labubu 是一个充满艺术气息的生活方式品牌，致力于为人们带来独特的艺术体验。",
     "image": {
-      "src": "/imgs/features/demo.png"
+      "src": "/imgs/about/brand-story.jpg"
     },
     "items": [
       {
-        "title": "智能识别",
-        "description": "自动检测视频中的所有文字内容，包括静态和动态文字。",
-        "icon": "RiAiLine"
+        "title": "独特设计",
+        "description": "每一件作品都融入了独特的艺术元素，展现独特的审美视角。",
+        "icon": "RiPaletteLine"
       },
       {
-        "title": "完美修复",
-        "description": "移除文字的同时，智能修复背景，保持画面自然。",
-        "icon": "RiMagicLine"
+        "title": "精致工艺",
+        "description": "采用优质材料，精湛工艺，确保每一件作品都完美呈现。",
+        "icon": "RiToolsLine"
       },
       {
-        "title": "快速处理",
-        "description": "强大的云端处理能力，快速完成视频编辑任务。",
-        "icon": "RiThunderboltLine"
-      }
-    ]
-  },
-  "benefit": {
-    "name": "benefit",
-    "title": "为什么选择 ShipAny",
-    "label": "优势",
-    "description": "获取启动 AI 创业所需的一切 - 从即用型模板到技术支持。",
-    "items": [
-      {
-        "title": "完整框架",
-        "description": "基于 Next.js 构建，集成身份验证、支付和 AI 功能 - 一切开箱即用。",
-        "icon": "RiNextjsFill",
-        "image": {
-          "src": "/imgs/features/2.png"
-        }
-      },
-      {
-        "title": "丰富的模板库",
-        "description": "选择各种 AI SaaS 模板来启动您的项目 - 聊天机器人、图像生成等。",
-        "icon": "RiClapperboardAiLine",
-        "image": {
-          "src": "/imgs/features/3.png"
-        }
-      },
-      {
-        "title": "技术指导",
-        "description": "获得专门支持并加入我们的开发者社区，确保您成功启动。",
-        "icon": "RiCodeFill",
-        "image": {
-          "src": "/imgs/features/4.png"
-        }
-      }
-    ]
-  },
-  "usage": {
-    "name": "usage",
-    "title": "简单三步，轻松去除视频文字",
-    "description": "快速上手，即刻体验专业的视频编辑效果：",
-    "image_position": "left",
-    "text_align": "center",
-    "items": [
-      {
-        "title": "上传视频",
-        "description": "将需要处理的视频文件拖拽或点击上传到平台。",
-        "image": {
-          "src": "/imgs/features/upload.png"
-        }
-      },
-      {
-        "title": "选择区域",
-        "description": "自动识别文字区域，或手动选择需要处理的区域。",
-        "image": {
-          "src": "/imgs/features/select.png"
-        }
-      },
-      {
-        "title": "开始处理",
-        "description": "点击处理按钮，AI自动完成文字移除和背景修复。",
-        "image": {
-          "src": "/imgs/features/process.png"
-        }
+        "title": "艺术生活",
+        "description": "将艺术融入日常生活，让生活充满创意与惊喜。",
+        "icon": "RiHeartLine"
       }
     ]
   },
   "feature": {
-    "name": "feature",
-    "title": "强大的功能特点",
-    "description": "为您提供专业的视频文字移除解决方案",
+    "name": "products",
+    "title": "产品系列",
+    "description": "探索我们的精选产品系列",
     "items": [
       {
-        "title": "批量处理",
-        "description": "支持多个视频同时处理，提高工作效率。",
-        "icon": "RiVideoAddLine"
+        "title": "经典系列",
+        "description": "永恒的经典设计，展现独特的艺术魅力。",
+        "icon": "RiStarLine"
       },
       {
-        "title": "智能识别",
-        "description": "准确识别视频中的各类文字，包括水印、字幕等。",
-        "icon": "RiScanLine"
+        "title": "限定系列",
+        "description": "限量发售的特别系列，收藏价值极高。",
+        "icon": "RiGiftLine"
       },
       {
-        "title": "背景修复",
-        "description": "使用AI技术智能修复移除文字后的背景。",
-        "icon": "RiPaintBrushLine"
+        "title": "联名系列",
+        "description": "与知名艺术家合作，打造独特的艺术体验。",
+        "icon": "RiHandHeartLine"
       },
       {
-        "title": "格式支持",
-        "description": "支持多种视频格式，包括MP4、AVI、MOV等。",
-        "icon": "RiFileVideoLine"
+        "title": "季节系列",
+        "description": "根据季节特点设计的特别系列。",
+        "icon": "RiSunLine"
       },
       {
-        "title": "清晰度保持",
-        "description": "处理后的视频保持原有的清晰度和质量。",
-        "icon": "RiHdLine"
+        "title": "定制系列",
+        "description": "为个人定制的专属系列。",
+        "icon": "RiUserHeartLine"
       },
       {
-        "title": "云端存储",
-        "description": "安全的云端存储，随时访问您的视频项目。",
-        "icon": "RiCloudLine"
+        "title": "周边系列",
+        "description": "精美的周边产品，展现品牌特色。",
+        "icon": "RiShoppingBagLine"
       }
     ]
   },
   "stats": {
     "name": "stats",
-    "label": "统计",
-    "title": "值得信赖的视频处理工具",
-    "description": "为全球用户提供专业的视频文字移除服务",
-    "icon": "FaRegHeart",
+    "label": "数据",
+    "title": "品牌影响力",
+    "description": "Have A Seat Labubu 正在影响更多人的生活",
+    "icon": "RiHeartLine",
     "items": [
       {
-        "title": "处理视频",
-        "label": "100万+",
-        "description": "成功案例"
+        "title": "全球用户",
+        "label": "10万+",
+        "description": "忠实粉丝"
       },
       {
-        "title": "支持格式",
+        "title": "产品系列",
         "label": "20+",
-        "description": "视频格式"
+        "description": "独特设计"
       },
       {
-        "title": "处理速度",
-        "label": "5分钟",
-        "description": "平均用时"
+        "title": "合作艺术家",
+        "label": "50+",
+        "description": "艺术创作"
       }
     ]
   },
-  "testimonial": {
-    "name": "testimonial",
-    "label": "用户评价",
-    "title": "用户如何评价我们的工具",
-    "description": "来自各行各业的用户真实反馈",
-    "icon": "GoThumbsup",
+  "pricing": {
+    "name": "pricing",
+    "title": "产品价格",
+    "description": "选择适合您的产品系列",
     "items": [
       {
-        "title": "王小明",
-        "label": "视频创作者",
-        "description": "这个工具帮我节省了大量时间，完美去除了视频中的水印，画面质量没有任何损失。推荐给所有视频创作者！",
-        "image": {
-          "src": "/imgs/users/1.png"
+        "title": "经典系列",
+        "description": "永恒的经典设计",
+        "price": "¥299",
+        "features": [
+          "经典款式",
+          "优质材料",
+          "精美包装",
+          "全球配送"
+        ],
+        "button": {
+          "title": "立即购买",
+          "url": "/shop/classic"
         }
       },
       {
-        "title": "李梅",
-        "label": "短视频博主",
-        "description": "批量处理功能太棒了，一次性处理多个视频，大大提高了工作效率。AI修复效果非常自然。",
-        "image": {
-          "src": "/imgs/users/2.png"
+        "title": "限定系列",
+        "description": "限量发售的特别系列",
+        "price": "¥599",
+        "features": [
+          "限量款式",
+          "高级材料",
+          "专属包装",
+          "全球配送",
+          "收藏证书"
+        ],
+        "button": {
+          "title": "立即购买",
+          "url": "/shop/limited"
         }
       },
       {
-        "title": "张教授",
-        "label": "教育工作者",
-        "description": "用它处理教学视频，轻松去除原有字幕，添加新的翻译。对教育视频的本地化帮助很大。",
-        "image": {
-          "src": "/imgs/users/3.png"
+        "title": "定制系列",
+        "description": "为个人定制的专属系列",
+        "price": "¥999",
+        "features": [
+          "专属定制",
+          "顶级材料",
+          "豪华包装",
+          "全球配送",
+          "收藏证书",
+          "专属服务"
+        ],
+        "button": {
+          "title": "立即购买",
+          "url": "/shop/custom"
         }
       }
     ]
   },
   "faq": {
     "name": "faq",
-    "label": "常见问题",
-    "title": "关于视频文字移除的常见问题",
-    "description": "还有其他问题？请通过在线客服或邮件联系我们。",
+    "title": "常见问题",
+    "description": "了解更多关于 Have A Seat Labubu 的信息",
     "items": [
       {
-        "title": "支持哪些视频格式？",
-        "description": "我们支持所有主流视频格式，包括MP4、AVI、MOV、WMV、FLV等。无论是手机拍摄还是专业设备录制的视频都可以完美处理。"
+        "title": "如何购买产品？",
+        "description": "您可以通过我们的官方网站或线下门店购买产品。线上购买支持多种支付方式，包括支付宝、微信支付等。"
       },
       {
-        "title": "处理后的视频质量如何？",
-        "description": "我们采用先进的AI技术，确保在移除文字的同时保持视频原有的清晰度和质量。背景修复自然，看不出处理痕迹。"
+        "title": "产品是否支持退换？",
+        "description": "是的，我们支持7天无理由退换。但定制产品除外，因为是根据个人需求定制的。"
       },
       {
-        "title": "处理一个视频需要多长时间？",
-        "description": "处理时间取决于视频长度和需要处理的文字数量。一般情况下，5分钟的视频约需要3-5分钟完成处理。"
+        "title": "如何保养产品？",
+        "description": "建议定期清洁，避免阳光直射，保持干燥。具体保养方法请参考产品说明书。"
       },
       {
-        "title": "如何保证我的视频安全？",
-        "description": "我们采用企业级加密技术保护您的视频文件。所有上传的内容都存储在安全的云服务器中，处理完成后24小时内自动删除。"
+        "title": "是否支持国际配送？",
+        "description": "是的，我们支持全球配送。具体运费和配送时间请查看购物车页面。"
       }
     ]
   },
   "cta": {
     "name": "cta",
-    "title": "开始改善您的视频内容",
-    "description": "立即体验专业的视频文字移除工具",
+    "title": "开启您的艺术之旅",
+    "description": "立即加入 Have A Seat Labubu 的大家庭，体验独特的艺术生活。",
     "buttons": [
       {
-        "title": "免费试用",
-        "url": "/dashboard",
-        "target": "_self",
-        "icon": "RiPlayCircleLine"
+        "title": "立即购买",
+        "url": "/shop",
+        "variant": "default"
       },
       {
-        "title": "查看价格",
-        "url": "/pricing",
-        "target": "_self",
+        "title": "了解更多",
+        "url": "/#about",
         "variant": "outline"
       }
     ]
@@ -339,55 +256,37 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "AI视频文字移除工具",
-      "description": "专业的AI视频编辑工具，帮助您轻松去除视频中的任何文字内容。",
+      "title": "Have A Seat Labubu",
+      "description": "一个为您的生活带来独特艺术体验的生活方式品牌。",
       "logo": {
         "src": "/logo.png",
-        "alt": "AI视频文字移除工具"
+        "alt": "Have A Seat Labubu"
       },
       "url": "/"
     },
-    "copyright": "© 2024 • AI视频文字移除工具 版权所有。",
+    "copyright": "© 2024 • Have A Seat Labubu 版权所有。",
     "nav": {
       "items": [
         {
-          "title": "快速链接",
+          "title": "产品系列",
           "children": [
-            {
-              "title": "功能介绍",
-              "url": "/#feature",
-              "target": "_self"
-            },
-            {
-              "title": "使用教程",
-              "url": "/tutorial",
-              "target": "_self"
-            },
-            {
-              "title": "价格方案",
-              "url": "/pricing",
-              "target": "_self"
-            }
+            { "title": "经典系列", "url": "/#feature", "target": "_self" },
+            { "title": "限定系列", "url": "/#feature", "target": "_self" },
+            { "title": "定制系列", "url": "/#feature", "target": "_self" }
           ]
         },
         {
-          "title": "支持",
+          "title": "Blog",
           "children": [
-            {
-              "title": "帮助中心",
-              "url": "/help",
-              "target": "_self"
-            },
-            {
-              "title": "常见问题",
-              "url": "/faq",
-              "target": "_self"
-            },
-            {
-              "title": "联系我们",
-              "url": "/contact",
-              "target": "_self"
-            }
+            { "title": "品牌动态", "url": "/blog", "target": "_self" },
+            { "title": "艺术专栏", "url": "/blog/art", "target": "_self" }
+          ]
+        },
+        {
+          "title": "关于我们",
+          "children": [
+            { "title": "品牌故事", "url": "/#about", "target": "_self" },
+            { "title": "联系我们", "url": "/contact", "target": "_self" }
           ]
         }
       ]
@@ -403,7 +302,7 @@
         {
           "title": "邮箱",
           "icon": "RiMailLine",
-          "url": "mailto:support@example.com",
+          "url": "mailto:support@haveaseatlabubu.cc",
           "target": "_self"
         }
       ]
@@ -422,3 +321,4 @@
     }
   }
 }
+

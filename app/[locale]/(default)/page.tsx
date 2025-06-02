@@ -36,14 +36,14 @@ export default async function LandingPage({
   const page = await getLandingPage(locale);
 
   return (
-    <>
+    <div className="min-h-screen bg-white">
       {page.hero && <Hero hero={page.hero} />}
       {page.introduce && <Feature1 section={page.introduce} />}
-      {/*{page.feature && <Feature section={page.feature} />}
+      {page.feature && <Feature section={page.feature} />}
       {page.stats && <Stats section={page.stats} />}
       {page.pricing && <Pricing pricing={page.pricing} />}
       {page.faq && <Faq section={page.faq} />}
-      {page.cta && <Cta section={page.cta} />}*/}
-    </>
+      {page.cta && <Cta section={page.cta} />}
+    </div>
   );
 }

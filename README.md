@@ -1,28 +1,65 @@
-# ShipAny Template One
+# AI Video Text Remove Tool
 
-Ship Any AI SaaS Startups in hours.
+一个基于 AI 技术的视频文字移除工具，可以智能识别并移除视频中的各种文字内容。
 
-![preview](preview.png)
+## 功能特点
 
-## Quick Start
+- 智能文字识别：自动检测视频中的静态和动态文字
+- 完美修复：智能修复文字移除后的背景
+- 批量处理：支持多个视频同时处理
+- 多格式支持：支持 MP4、AVI、MOV 等主流视频格式
 
-1. Clone the repository
+## 技术栈
 
+- Next.js 14 (App Router)
+- TypeScript
+- Tailwind CSS
+- Shadcn UI
+- Next-auth
+- Next-intl
+
+## 在 macOS 上运行项目
+
+1. 确保已安装 Node.js (推荐 v18+)
+
+2. 安装 pnpm (如果还没有安装)
 ```bash
-git clone https://github.com/shipanyai/shipany-template-one.git
+npm install -g pnpm
 ```
 
-2. Install dependencies
-
+3. 安装项目依赖
 ```bash
 pnpm install
 ```
 
-3. Run the development server
+4. 创建环境配置文件
+```bash
+cp .env.example .env.development
+```
+然后编辑 `.env.development` 文件，填写必要的环境变量。
 
+5. 启动开发服务器
 ```bash
 pnpm dev
 ```
+
+现在可以访问 http://localhost:3000 查看项目了。
+
+## 环境变量配置
+
+必要的环境变量：
+
+- `NEXTAUTH_SECRET`: NextAuth.js 密钥
+- `NEXT_PUBLIC_WEB_URL`: 网站 URL
+- `DATABASE_URL`: 数据库连接 URL
+- `STRIPE_SECRET_KEY`: Stripe 支付密钥
+- `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY`: Stripe 公钥
+
+## 注意事项
+
+1. 确保 Node.js 版本 >= 18
+2. 如果遇到权限问题，使用 `sudo` 运行命令
+3. 如果端口 3000 被占用，服务器会自动使用下一个可用端口
 
 ## Customize
 

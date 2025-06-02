@@ -1,37 +1,41 @@
 {
-  "template": "ai-video-text-remove",
+  "template": "have-a-seat-labubu",
   "theme": "light",
   "header": {
     "brand": {
-      "title": "AI Video Text Remove",
+      "title": "Have A Seat Labubu",
       "logo": {
         "src": "/logo.png",
-        "alt": "AI Video Text Remove"
+        "alt": "Have A Seat Labubu"
       },
       "url": "/"
     },
     "nav": {
       "items": [
         {
-          "title": "Features",
-          "url": "/#feature",
-          "icon": "RiSparkling2Line"
+          "title": "Product Series",
+          "url": "/#products",
+          "icon": "RiShoppingBagLine"
         },
-       
         {
-          "title": "Tutorial",
-          "url": "/showcase",
-          "icon": "RiVideoLine"
+          "title": "Blog",
+          "url": "/blog",
+          "icon": "RiArticleLine"
+        },
+        {
+          "title": "About Us",
+          "url": "/#about",
+          "icon": "RiInformationLine"
         }
       ]
     },
     "buttons": [
       {
-        "title": "Try Now",
-        "url": "/dashboard",
+        "title": "Shop Now",
+        "url": "/shop",
         "target": "_self",
         "variant": "default",
-        "icon": "RiPlayCircleLine"
+        "icon": "RiShoppingCartLine"
       }
     ],
     "show_sign": true,
@@ -39,27 +43,27 @@
     "show_locale": true
   },
   "hero": {
-    "title": "Intelligently Remove Any Text from Videos ",
-    "highlight_text": "Ai Vedio Remove",
-    "description": "Use advanced AI technology to easily remove watermarks, subtitles, and any unwanted text from your videos.<br/>One-click operation for professional results.",
+    "title": "Have A Seat Labubu - Making Life More Interesting",
+    "highlight_text": "Have A Seat Labubu",
+    "description": "Unique artistic design, exquisite craftsmanship,<br/>adding a touch of artistic charm to your space.",
     "announcement": {
-      "label": "New Feature",
-      "title": "🎉 Batch Processing Support",
-      "url": "/#feature"
+      "label": "New",
+      "title": "🎉 2024 Spring Limited Series Now Available",
+      "url": "/#new"
     },
-    "tip": "🎁 Limited Time Offer: 50% Off for First-Time Users",
+    "tip": "🎁 Limited Time Offer: Free Gift with Any Purchase",
     "buttons": [
       {
-        "title": "Get Started",
-        "icon": "RiVideoAddFill",
-        "url": "/dashboard",
+        "title": "Shop Now",
+        "icon": "RiShoppingCartFill",
+        "url": "/shop",
         "target": "_self",
         "variant": "default"
       },
       {
-        "title": "View Demo",
-        "icon": "RiPlayCircleLine",
-        "url": "/showcase",
+        "title": "Learn More",
+        "icon": "RiInformationLine",
+        "url": "/#about",
         "target": "_self",
         "variant": "outline"
       }
@@ -68,226 +72,183 @@
     "show_badge": true
   },
   "introduce": {
-    "name": "introduce",
-    "title": "Why Choose Our Tool",
-    "label": "Introduction",
-    "description": "Professional AI video text removal tool for perfect video content.",
+    "name": "about",
+    "title": "About Have A Seat Labubu",
+    "label": "Brand Story",
+    "description": "Have A Seat Labubu is a lifestyle brand full of artistic atmosphere, dedicated to bringing unique artistic experiences to people.",
     "image": {
-      "src": "/imgs/features/demo.png"
+      "src": "/imgs/about/brand-story.jpg"
     },
     "items": [
       {
-        "title": "Smart Detection",
-        "description": "Automatically detect all text content in videos, including static and dynamic text.",
-        "icon": "RiAiLine"
+        "title": "Unique Design",
+        "description": "Each piece incorporates unique artistic elements, showcasing a distinctive aesthetic perspective.",
+        "icon": "RiPaletteLine"
       },
       {
-        "title": "Perfect Restoration",
-        "description": "Intelligently repair backgrounds while removing text, maintaining natural appearance.",
-        "icon": "RiMagicLine"
+        "title": "Exquisite Craftsmanship",
+        "description": "Using premium materials and skilled craftsmanship to ensure perfect presentation of each piece.",
+        "icon": "RiToolsLine"
       },
       {
-        "title": "Fast Processing",
-        "description": "Powerful cloud processing capabilities for quick video editing tasks.",
-        "icon": "RiThunderboltLine"
-      }
-    ]
-  },
-  "benefit": {
-    "name": "benefit",
-    "title": "Why Choose ShipAny",
-    "label": "Benefits",
-    "description": "Get everything you need to launch your AI startup - from ready-to-use templates to technical support.",
-    "items": [
-      {
-        "title": "Complete Framework",
-        "description": "Built on Next.js with authentication, payments, and AI integration - everything works out of the box.",
-        "icon": "RiNextjsFill",
-        "image": {
-          "src": "/imgs/features/2.png"
-        }
-      },
-      {
-        "title": "Rich Templates Library",
-        "description": "Choose from various AI SaaS templates to kickstart your project - chatbots, image generation, and more.",
-        "icon": "RiClapperboardAiLine",
-        "image": {
-          "src": "/imgs/features/3.png"
-        }
-      },
-      {
-        "title": "Technical Guidance",
-        "description": "Get dedicated support and join our developer community to ensure your successful launch.",
-        "icon": "RiCodeFill",
-        "image": {
-          "src": "/imgs/features/4.png"
-        }
-      }
-    ]
-  },
-  "usage": {
-    "name": "usage",
-    "title": "Three Simple Steps to Remove Video Text",
-    "description": "Quick start, experience professional video editing effects instantly:",
-    "image_position": "left",
-    "text_align": "center",
-    "items": [
-      {
-        "title": "Upload Video",
-        "description": "Drag and drop or click to upload your video files to the platform.",
-        "image": {
-          "src": "/imgs/features/upload.png"
-        }
-      },
-      {
-        "title": "Select Area",
-        "description": "Automatically detect text areas or manually select areas to process.",
-        "image": {
-          "src": "/imgs/features/select.png"
-        }
-      },
-      {
-        "title": "Start Processing",
-        "description": "Click the process button, AI automatically completes text removal and background repair.",
-        "image": {
-          "src": "/imgs/features/process.png"
-        }
+        "title": "Artistic Life",
+        "description": "Integrating art into daily life, making life full of creativity and surprises.",
+        "icon": "RiHeartLine"
       }
     ]
   },
   "feature": {
-    "name": "feature",
-    "title": "Powerful Features",
-    "description": "Professional video text removal solution at your service",
+    "name": "products",
+    "title": "Product Series",
+    "description": "Explore our curated product collections",
     "items": [
       {
-        "title": "Batch Processing",
-        "description": "Process multiple videos simultaneously to improve efficiency.",
-        "icon": "RiVideoAddLine"
+        "title": "Classic Series",
+        "description": "Timeless classic designs that showcase unique artistic charm.",
+        "icon": "RiStarLine"
       },
       {
-        "title": "Smart Detection",
-        "description": "Accurately identify various types of text in videos, including watermarks and subtitles.",
-        "icon": "RiScanLine"
+        "title": "Limited Series",
+        "description": "Exclusive limited editions with high collectible value.",
+        "icon": "RiGiftLine"
       },
       {
-        "title": "Background Repair",
-        "description": "Use AI technology to intelligently repair backgrounds after text removal.",
-        "icon": "RiPaintBrushLine"
+        "title": "Collaboration Series",
+        "description": "Unique artistic experiences created with renowned artists.",
+        "icon": "RiHandHeartLine"
       },
       {
-        "title": "Format Support",
-        "description": "Support multiple video formats, including MP4, AVI, MOV, and more.",
-        "icon": "RiFileVideoLine"
+        "title": "Seasonal Series",
+        "description": "Special collections designed according to seasonal characteristics.",
+        "icon": "RiSunLine"
       },
       {
-        "title": "Quality Preservation",
-        "description": "Maintain original clarity and quality in processed videos.",
-        "icon": "RiHdLine"
+        "title": "Custom Series",
+        "description": "Exclusive series customized for individuals.",
+        "icon": "RiUserHeartLine"
       },
       {
-        "title": "Cloud Storage",
-        "description": "Secure cloud storage for accessing your video projects anytime.",
-        "icon": "RiCloudLine"
+        "title": "Accessories Series",
+        "description": "Exquisite accessories that showcase brand characteristics.",
+        "icon": "RiShoppingBagLine"
       }
     ]
   },
   "stats": {
     "name": "stats",
     "label": "Stats",
-    "title": "Trusted Video Processing Tool",
-    "description": "Professional video text removal service for users worldwide",
-    "icon": "FaRegHeart",
+    "title": "Brand Influence",
+    "description": "Have A Seat Labubu is influencing more lives",
+    "icon": "RiHeartLine",
     "items": [
       {
-        "title": "Processed Videos",
-        "label": "1M+",
-        "description": "Success Cases"
+        "title": "Global Users",
+        "label": "100K+",
+        "description": "Loyal Fans"
       },
       {
-        "title": "Supported Formats",
+        "title": "Product Series",
         "label": "20+",
-        "description": "Video Formats"
+        "description": "Unique Designs"
       },
       {
-        "title": "Processing Speed",
-        "label": "5min",
-        "description": "Average Time"
+        "title": "Collaborating Artists",
+        "label": "50+",
+        "description": "Artistic Creations"
       }
     ]
   },
-  "testimonial": {
-    "name": "testimonial",
-    "label": "Testimonial",
-    "title": "What Users Say About Our Tool",
-    "description": "Real feedback from users across different industries",
-    "icon": "GoThumbsup",
+  "pricing": {
+    "name": "pricing",
+    "title": "Product Pricing",
+    "description": "Choose the product series that suits you",
     "items": [
       {
-        "title": "John Smith",
-        "label": "Video Creator",
-        "description": "This tool saved me tons of time by perfectly removing watermarks from videos with no quality loss. Recommended for all video creators!",
-        "image": {
-          "src": "/imgs/users/1.png"
+        "title": "Classic Series",
+        "description": "Timeless classic designs",
+        "price": "$39.99",
+        "features": [
+          "Classic styles",
+          "Premium materials",
+          "Elegant packaging",
+          "Global shipping"
+        ],
+        "button": {
+          "title": "Shop Now",
+          "url": "/shop/classic"
         }
       },
       {
-        "title": "Sarah Chen",
-        "label": "Content Creator",
-        "description": "The batch processing feature is amazing! Processing multiple videos at once greatly improved my workflow. AI restoration looks very natural.",
-        "image": {
-          "src": "/imgs/users/2.png"
+        "title": "Limited Series",
+        "description": "Exclusive limited editions",
+        "price": "$79.99",
+        "features": [
+          "Limited styles",
+          "High-end materials",
+          "Exclusive packaging",
+          "Global shipping",
+          "Certificate of authenticity"
+        ],
+        "button": {
+          "title": "Shop Now",
+          "url": "/shop/limited"
         }
       },
       {
-        "title": "Prof. Williams",
-        "label": "Educator",
-        "description": "Used it for educational videos, easily removed original subtitles and added new translations. Great help for localizing educational content.",
-        "image": {
-          "src": "/imgs/users/3.png"
+        "title": "Custom Series",
+        "description": "Personalized exclusive series",
+        "price": "$129.99",
+        "features": [
+          "Custom design",
+          "Top-tier materials",
+          "Luxury packaging",
+          "Global shipping",
+          "Certificate of authenticity",
+          "Exclusive service"
+        ],
+        "button": {
+          "title": "Shop Now",
+          "url": "/shop/custom"
         }
       }
     ]
   },
   "faq": {
     "name": "faq",
-    "label": "FAQ",
-    "title": "Frequently Asked Questions About Video Text Removal",
-    "description": "Have more questions? Contact us via live chat or email.",
+    "title": "Frequently Asked Questions",
+    "description": "Learn more about Have A Seat Labubu",
     "items": [
       {
-        "title": "What video formats are supported?",
-        "description": "We support all major video formats including MP4, AVI, MOV, WMV, FLV, and more. Perfect for videos from both mobile devices and professional equipment."
+        "title": "How to purchase products?",
+        "description": "You can purchase products through our official website or physical stores. Online purchases support multiple payment methods, including credit cards and PayPal."
       },
       {
-        "title": "How is the video quality after processing?",
-        "description": "Our advanced AI technology ensures that video quality remains intact while removing text. Background restoration is natural with no visible processing artifacts."
+        "title": "Is there a return policy?",
+        "description": "Yes, we offer a 7-day no-questions-asked return policy. Custom products are excluded as they are made to individual specifications."
       },
       {
-        "title": "How long does it take to process a video?",
-        "description": "Processing time depends on video length and the amount of text to be removed. Typically, a 5-minute video takes about 3-5 minutes to process."
+        "title": "How to maintain products?",
+        "description": "We recommend regular cleaning, avoiding direct sunlight, and keeping them dry. Please refer to the product manual for specific maintenance methods."
       },
       {
-        "title": "How do you ensure my video's security?",
-        "description": "We use enterprise-grade encryption to protect your video files. All uploaded content is stored on secure cloud servers and automatically deleted within 24 hours after processing."
+        "title": "Do you offer international shipping?",
+        "description": "Yes, we offer worldwide shipping. Please check the shopping cart page for specific shipping fees and delivery times."
       }
     ]
   },
   "cta": {
     "name": "cta",
-    "title": "Start Improving Your Video Content",
-    "description": "Experience professional video text removal tool now",
+    "title": "Start Your Artistic Journey",
+    "description": "Join the Have A Seat Labubu family and experience a unique artistic lifestyle.",
     "buttons": [
       {
-        "title": "Free Trial",
-        "url": "/dashboard",
-        "target": "_self",
-        "icon": "RiPlayCircleLine"
+        "title": "Shop Now",
+        "url": "/shop",
+        "variant": "default"
       },
       {
-        "title": "View Pricing",
-        "url": "/pricing",
-        "target": "_self",
+        "title": "Learn More",
+        "url": "/#about",
         "variant": "outline"
       }
     ]
@@ -295,55 +256,37 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "AI Video Text Remove",
-      "description": "Professional AI video editing tool helping you easily remove any text content from videos.",
+      "title": "Have A Seat Labubu",
+      "description": "A lifestyle brand that brings unique artistic experiences to your life.",
       "logo": {
         "src": "/logo.png",
-        "alt": "AI Video Text Remove"
+        "alt": "Have A Seat Labubu"
       },
       "url": "/"
     },
-    "copyright": "© 2024 • AI Video Text Remove. All rights reserved.",
+    "copyright": "© 2024 • Have A Seat Labubu. All rights reserved.",
     "nav": {
       "items": [
         {
-          "title": "Quick Links",
+          "title": "Product Series",
           "children": [
-            {
-              "title": "Features",
-              "url": "/#feature",
-              "target": "_self"
-            },
-            {
-              "title": "Tutorial",
-              "url": "/tutorial",
-              "target": "_self"
-            },
-            {
-              "title": "Pricing Plans",
-              "url": "/pricing",
-              "target": "_self"
-            }
+            { "title": "Classic Series", "url": "/#feature", "target": "_self" },
+            { "title": "Limited Series", "url": "/#feature", "target": "_self" },
+            { "title": "Custom Series", "url": "/#feature", "target": "_self" }
           ]
         },
         {
-          "title": "Support",
+          "title": "Blog",
           "children": [
-            {
-              "title": "Help Center",
-              "url": "/help",
-              "target": "_self"
-            },
-            {
-              "title": "FAQ",
-              "url": "/faq",
-              "target": "_self"
-            },
-            {
-              "title": "Contact Us",
-              "url": "/contact",
-              "target": "_self"
-            }
+            { "title": "Brand News", "url": "/blog", "target": "_self" },
+            { "title": "Art Column", "url": "/blog/art", "target": "_self" }
+          ]
+        },
+        {
+          "title": "About Us",
+          "children": [
+            { "title": "Brand Story", "url": "/#about", "target": "_self" },
+            { "title": "Contact Us", "url": "/contact", "target": "_self" }
           ]
         }
       ]
@@ -378,3 +321,4 @@
     }
   }
 }
+
