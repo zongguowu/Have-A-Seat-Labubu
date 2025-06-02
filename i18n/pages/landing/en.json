@@ -43,15 +43,15 @@
     "show_locale": true
   },
   "hero": {
-    "title": "Have A Seat Labubu - Making Life More Interesting",
+    "title": "Have A Seat Labubu - Unique Artistic Lifestyle Brand | Labubu Lounge",
     "highlight_text": "Have A Seat Labubu",
-    "description": "Unique artistic design, exquisite craftsmanship,<br/>adding a touch of artistic charm to your space.",
+    "description": "Discover Have A Seat Labubu's exclusive artistic designs and premium craftsmanship.<br/>Transform your space with our unique Labubu art pieces and lifestyle products.",
     "announcement": {
       "label": "New",
-      "title": "🎉 2024 Spring Limited Series Now Available",
+      "title": "🎉 2024 Spring Limited Series - Exclusive Labubu Art Collection Now Available",
       "url": "/#new"
     },
-    "tip": "🎁 Limited Time Offer: Free Gift with Any Purchase",
+    "tip": "🎁 Limited Time Offer: Free Labubu Art Gift with Any Purchase",
     "buttons": [
       {
         "title": "Shop Now",
@@ -73,88 +73,89 @@
   },
   "introduce": {
     "name": "about",
-    "title": "About Have A Seat Labubu",
+    "title": "About Have A Seat Labubu - Your Premium Art Lifestyle Brand",
     "label": "Brand Story",
-    "description": "Have A Seat Labubu is a lifestyle brand full of artistic atmosphere, dedicated to bringing unique artistic experiences to people.",
+    "description": "Have A Seat Labubu is a premium lifestyle brand that combines artistic excellence with contemporary design. Our unique Labubu art pieces and lifestyle products bring distinctive artistic experiences to your daily life, creating a perfect blend of art and functionality.",
     "image": {
-      "src": "/imgs/about/brand-story.jpg"
+      "src": "/imgs/about/brand-story.jpg",
+      "alt": "Have A Seat Labubu Brand Story - Artistic Lifestyle Brand"
     },
     "items": [
       {
-        "title": "Unique Design",
-        "description": "Each piece incorporates unique artistic elements, showcasing a distinctive aesthetic perspective.",
+        "title": "Unique Labubu Design",
+        "description": "Each Have A Seat Labubu piece features distinctive artistic elements and innovative design concepts, showcasing our commitment to artistic excellence.",
         "icon": "RiPaletteLine"
       },
       {
-        "title": "Exquisite Craftsmanship",
-        "description": "Using premium materials and skilled craftsmanship to ensure perfect presentation of each piece.",
+        "title": "Premium Craftsmanship",
+        "description": "Every Have A Seat Labubu product is crafted with premium materials and meticulous attention to detail, ensuring exceptional quality and durability.",
         "icon": "RiToolsLine"
       },
       {
-        "title": "Artistic Life",
-        "description": "Integrating art into daily life, making life full of creativity and surprises.",
+        "title": "Artistic Lifestyle",
+        "description": "Experience the perfect fusion of art and daily life with Have A Seat Labubu's unique collection of artistic lifestyle products.",
         "icon": "RiHeartLine"
       }
     ]
   },
   "feature": {
     "name": "products",
-    "title": "Product Series",
-    "description": "Explore our curated product collections",
+    "title": "Have A Seat Labubu Product Collections",
+    "description": "Explore our exclusive range of Have A Seat Labubu artistic products and lifestyle collections",
     "items": [
       {
-        "title": "Classic Series",
-        "description": "Timeless classic designs that showcase unique artistic charm.",
+        "title": "Labubu Classic Series",
+        "description": "Timeless Have A Seat Labubu designs that embody artistic excellence and enduring style.",
         "icon": "RiStarLine"
       },
       {
-        "title": "Limited Series",
-        "description": "Exclusive limited editions with high collectible value.",
+        "title": "Labubu Limited Series",
+        "description": "Exclusive Have A Seat Labubu limited editions, featuring unique artistic collaborations and high collectible value.",
         "icon": "RiGiftLine"
       },
       {
-        "title": "Collaboration Series",
-        "description": "Unique artistic experiences created with renowned artists.",
+        "title": "Labubu Collaboration Series",
+        "description": "Special Have A Seat Labubu collections created in partnership with renowned artists and designers.",
         "icon": "RiHandHeartLine"
       },
       {
-        "title": "Seasonal Series",
-        "description": "Special collections designed according to seasonal characteristics.",
+        "title": "Labubu Seasonal Series",
+        "description": "Curated Have A Seat Labubu collections that celebrate the beauty of each season through artistic expression.",
         "icon": "RiSunLine"
       },
       {
-        "title": "Custom Series",
-        "description": "Exclusive series customized for individuals.",
+        "title": "Labubu Custom Series",
+        "description": "Personalized Have A Seat Labubu creations tailored to your unique artistic preferences.",
         "icon": "RiUserHeartLine"
       },
       {
-        "title": "Accessories Series",
-        "description": "Exquisite accessories that showcase brand characteristics.",
+        "title": "Labubu Accessories Series",
+        "description": "Exquisite Have A Seat Labubu accessories that complement your artistic lifestyle.",
         "icon": "RiShoppingBagLine"
       }
     ]
   },
   "stats": {
     "name": "stats",
-    "label": "Stats",
-    "title": "Brand Influence",
-    "description": "Have A Seat Labubu is influencing more lives",
+    "label": "Brand Impact",
+    "title": "Have A Seat Labubu Global Influence",
+    "description": "Join our growing community of Have A Seat Labubu art enthusiasts worldwide",
     "icon": "RiHeartLine",
     "items": [
       {
-        "title": "Global Users",
+        "title": "Global Labubu Community",
         "label": "100K+",
-        "description": "Loyal Fans"
+        "description": "Art Enthusiasts"
       },
       {
-        "title": "Product Series",
+        "title": "Labubu Collections",
         "label": "20+",
-        "description": "Unique Designs"
+        "description": "Artistic Series"
       },
       {
-        "title": "Collaborating Artists",
+        "title": "Art Collaborations",
         "label": "50+",
-        "description": "Artistic Creations"
+        "description": "Creative Partnerships"
       }
     ]
   },
@@ -238,16 +239,16 @@
   },
   "cta": {
     "name": "cta",
-    "title": "Start Your Artistic Journey",
-    "description": "Join the Have A Seat Labubu family and experience a unique artistic lifestyle.",
+    "title": "Join the Have A Seat Labubu Art Community",
+    "description": "Experience the unique artistic lifestyle with Have A Seat Labubu's exclusive collections. Start your journey into the world of Labubu art today.",
     "buttons": [
       {
-        "title": "Shop Now",
+        "title": "Shop Labubu Collection",
         "url": "/shop",
         "variant": "default"
       },
       {
-        "title": "Learn More",
+        "title": "Discover Labubu Art",
         "url": "/#about",
         "variant": "outline"
       }
@@ -257,10 +258,10 @@
     "name": "footer",
     "brand": {
       "title": "Have A Seat Labubu",
-      "description": "A lifestyle brand that brings unique artistic experiences to your life.",
+      "description": "Your premium artistic lifestyle brand, bringing unique Labubu art experiences to your life.",
       "logo": {
         "src": "/logo.png",
-        "alt": "Have A Seat Labubu"
+        "alt": "Have A Seat Labubu - Premium Artistic Lifestyle Brand"
       },
       "url": "/"
     },

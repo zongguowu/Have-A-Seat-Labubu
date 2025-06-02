@@ -7,6 +7,7 @@ import Pricing from "@/components/blocks/pricing";
 import Faq from "@/components/blocks/faq";
 import Cta from "@/components/blocks/cta";
 import { getLandingPage } from "@/services/page";
+import { getTranslations } from "next-intl/server";
 
 export async function generateMetadata({
   params,
@@ -14,6 +15,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  const t = await getTranslations();
   let canonicalUrl = `${process.env.NEXT_PUBLIC_WEB_URL}`;
 
   if (locale !== "en") {
@@ -21,8 +23,39 @@ export async function generateMetadata({
   }
 
   return {
+    title: t("metadata.title"),
+    description: t("metadata.description"),
+    keywords: t("metadata.keywords"),
     alternates: {
       canonical: canonicalUrl,
+      languages: {
+        'en': '/',
+        'zh': '/zh',
+      },
+    },
+    openGraph: {
+      title: t("metadata.title"),
+      description: t("metadata.description"),
+      url: canonicalUrl,
+      siteName: "Have A Seat Labubu",
+      locale: locale,
+      type: "website",
+      images: [
+        {
+          url: `${process.env.NEXT_PUBLIC_WEB_URL}/og-image.jpg`,
+          width: 1200,
+          height: 630,
+          alt: locale === "en" 
+            ? "Have A Seat Labubu - Premium Artistic Lifestyle Brand"
+            : "Have A Seat Labubu - 高端艺术生活方式品牌",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t("metadata.title"),
+      description: t("metadata.description"),
+      images: [`${process.env.NEXT_PUBLIC_WEB_URL}/og-image.jpg`],
     },
   };
 }
