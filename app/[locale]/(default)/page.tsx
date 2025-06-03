@@ -74,9 +74,11 @@ export default async function LandingPage({
       {page.introduce && <Feature1 section={page.introduce} />}
       {page.feature && <Feature section={page.feature} />}
       {page.stats && <Stats section={page.stats} />}
+      {/*
       {page.pricing && <Pricing pricing={page.pricing} />}
       {page.faq && <Faq section={page.faq} />}
       {page.cta && <Cta section={page.cta} />}
+      */}
     </div>
   );
 }

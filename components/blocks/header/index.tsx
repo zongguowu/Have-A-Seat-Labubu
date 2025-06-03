@@ -148,18 +148,33 @@ export default function Header({ header }: { header: HeaderType }) {
             {header.show_theme && <ThemeToggle />}
 
             {header.buttons?.map((item, i) => {
+              const isExternal = typeof item.url === "string" && item.url.startsWith("http");
               return (
                 <Button key={i} variant={item.variant}>
-                  <Link
-                    href={item.url as any}
-                    target={item.target || ""}
-                    className="flex items-center gap-1 cursor-pointer"
-                  >
-                    {item.title}
-                    {item.icon && (
-                      <Icon name={item.icon} className="size-4 shrink-0" />
-                    )}
-                  </Link>
+                  {isExternal ? (
+                    <a
+                      href={item.url}
+                      target={item.target || "_self"}
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-1 cursor-pointer"
+                    >
+                      {item.title}
+                      {item.icon && (
+                        <Icon name={item.icon} className="size-4 shrink-0" />
+                      )}
+                    </a>
+                  ) : (
+                    <Link
+                      href={item.url as any}
+                      target={item.target || ""}
+                      className="flex items-center gap-1 cursor-pointer"
+                    >
+                      {item.title}
+                      {item.icon && (
+                        <Icon name={item.icon} className="size-4 shrink-0" />
+                      )}
+                    </Link>
+                  )}
                 </Button>
               );
             })}
@@ -280,21 +295,39 @@ export default function Header({ header }: { header: HeaderType }) {
                 <div className="border-t pt-4">
                   <div className="mt-2 flex flex-col gap-3">
                     {header.buttons?.map((item, i) => {
+                      const isExternal = typeof item.url === "string" && item.url.startsWith("http");
                       return (
                         <Button key={i} variant={item.variant}>
-                          <Link
-                            href={item.url as any}
-                            target={item.target || ""}
-                            className="flex items-center gap-1"
-                          >
-                            {item.title}
-                            {item.icon && (
-                              <Icon
-                                name={item.icon}
-                                className="size-4 shrink-0"
-                              />
-                            )}
-                          </Link>
+                          {isExternal ? (
+                            <a
+                              href={item.url}
+                              target={item.target || "_self"}
+                              rel="noopener noreferrer"
+                              className="flex items-center gap-1 cursor-pointer"
+                            >
+                              {item.title}
+                              {item.icon && (
+                                <Icon
+                                  name={item.icon}
+                                  className="size-4 shrink-0"
+                                />
+                              )}
+                            </a>
+                          ) : (
+                            <Link
+                              href={item.url as any}
+                              target={item.target || ""}
+                              className="flex items-center gap-1 cursor-pointer"
+                            >
+                              {item.title}
+                              {item.icon && (
+                                <Icon
+                                  name={item.icon}
+                                  className="size-4 shrink-0"
+                                />
+                              )}
+                            </Link>
+                          )}
                         </Button>
                       );
                     })}

@@ -19,7 +19,7 @@
         },
         {
           "title": "Blog",
-          "url": "/blog",
+          "url": "/posts",
           "icon": "RiArticleLine"
         },
         {
@@ -30,13 +30,7 @@
       ]
     },
     "buttons": [
-      {
-        "title": "Shop Now",
-        "url": "/shop",
-        "target": "_self",
-        "variant": "default",
-        "icon": "RiShoppingCartLine"
-      }
+      
     ],
     "show_sign": true,
     "show_theme": true,
@@ -46,11 +40,6 @@
     "title": "Have A Seat Labubu - Unique Artistic Lifestyle Brand | Labubu Lounge",
     "highlight_text": "Have A Seat Labubu",
     "description": "Discover Have A Seat Labubu's exclusive artistic designs and premium craftsmanship.<br/>Transform your space with our unique Labubu art pieces and lifestyle products.",
-    "announcement": {
-      "label": "New",
-      "title": "🎉 2024 Spring Limited Series - Exclusive Labubu Art Collection Now Available",
-      "url": "/#new"
-    },
     "tip": "🎁 Limited Time Offer: Free Labubu Art Gift with Any Purchase",
     "buttons": [
       {
@@ -106,22 +95,26 @@
       {
         "title": "Labubu Classic Series",
         "description": "Timeless Have A Seat Labubu designs that embody artistic excellence and enduring style.",
-        "icon": "RiStarLine"
+        "icon": "RiStarLine",
+        "image": "/imgs/products/halloween-labubu.jpg"
       },
       {
         "title": "Labubu Limited Series",
         "description": "Exclusive Have A Seat Labubu limited editions, featuring unique artistic collaborations and high collectible value.",
-        "icon": "RiGiftLine"
+        "icon": "RiGiftLine",
+        "image": "/imgs/products/monsters-labubu.jpg"
       },
       {
         "title": "Labubu Collaboration Series",
         "description": "Special Have A Seat Labubu collections created in partnership with renowned artists and designers.",
-        "icon": "RiHandHeartLine"
+        "icon": "RiHandHeartLine",
+        "image": "/imgs/products/checkmate-labubu.jpg"
       },
       {
         "title": "Labubu Seasonal Series",
         "description": "Curated Have A Seat Labubu collections that celebrate the beauty of each season through artistic expression.",
-        "icon": "RiSunLine"
+        "icon": "RiSunLine",
+        "image": "/imgs/products/pink-labubu.jpg"
       },
       {
         "title": "Labubu Custom Series",

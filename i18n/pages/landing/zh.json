@@ -19,7 +19,7 @@
         },
         {
           "title": "Blog",
-          "url": "/blog",
+          "url": "/posts",
           "icon": "RiArticleLine"
         },
         {
@@ -30,13 +30,7 @@
       ]
     },
     "buttons": [
-      {
-        "title": "立即购买",
-        "url": "/shop",
-        "target": "_self",
-        "variant": "default",
-        "icon": "RiShoppingCartLine"
-      }
+      
     ],
     "show_sign": true,
     "show_theme": true,
@@ -46,11 +40,6 @@
     "title": "Have A Seat Labubu - 独特艺术生活方式品牌 | Labubu 艺术空间",
     "highlight_text": "Have A Seat Labubu",
     "description": "探索 Have A Seat Labubu 独特的艺术设计与精湛工艺。<br/>用我们独特的 Labubu 艺术作品和生活方式产品，为您的空间增添艺术气息。",
-    "announcement": {
-      "label": "新品",
-      "title": "🎉 2024春季限定系列 - Labubu 艺术收藏品现已发售",
-      "url": "/#new"
-    },
     "tip": "🎁 限时优惠：购买任意产品赠送 Labubu 艺术周边",
     "buttons": [
       {
@@ -106,22 +95,26 @@
       {
         "title": "Labubu 经典系列",
         "description": "永恒的 Have A Seat Labubu 设计，展现艺术卓越和持久风格。",
-        "icon": "RiStarLine"
+        "icon": "RiStarLine",
+        "image": "/imgs/products/halloween-labubu.jpg"
       },
       {
         "title": "Labubu 限定系列",
         "description": "独特的 Have A Seat Labubu 限定版，包含独特的艺术合作和高收藏价值。",
-        "icon": "RiGiftLine"
+        "icon": "RiGiftLine",
+        "image": "/imgs/products/monsters-labubu.jpg"
       },
       {
         "title": "Labubu 联名系列",
         "description": "与知名艺术家和设计师合作打造的特别 Have A Seat Labubu 系列。",
-        "icon": "RiHandHeartLine"
+        "icon": "RiHandHeartLine",
+        "image": "/imgs/products/checkmate-labubu.jpg"
       },
       {
         "title": "Labubu 季节系列",
         "description": "精心策划的 Have A Seat Labubu 系列，通过艺术表达展现每个季节的美。",
-        "icon": "RiSunLine"
+        "icon": "RiSunLine",
+        "image": "/imgs/products/pink-labubu.jpg"
       },
       {
         "title": "Labubu 定制系列",

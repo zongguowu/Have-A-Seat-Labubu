@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Have A Seat Labubu - 高端艺术生活方式品牌 | Labubu 艺术空间",
     "description": "探索 Have A Seat Labubu 独特的艺术生活方式产品和系列。用我们独特的 Labubu 艺术作品、限定版和定制设计，为您的空间增添艺术气息。体验艺术与功能的完美融合。",
-    "keywords": "Have A Seat Labubu, Labubu, 艺术生活方式品牌, Labubu 艺术, Labubu 艺术空间, 限定版艺术, 定制艺术设计, 高端艺术产品, Labubu 系列, 艺术生活, Labubu 系列, Labubu 周边, Labubu 定制系列, Labubu 联名系列"
+    "keywords": "Have A Seat Labubu, Labubu, 艺术生活方式品牌, Labubu 艺术, Labubu 艺术空间, 限定版艺术, 定制艺术设计, 高端艺术品, Labubu 系列, 艺术生活, Labubu 产品系列, Labubu 周边, Labubu 定制系列, Labubu 联名系列"
   },
   "user": {
     "sign_in": "登录",
@@ -282,5 +282,10 @@
     "account_terminated": "账号已终止",
     "account_closed": "账号已关闭",
     "account_opened": "账号已开启"
+  },
+  "blog": {
+    "title": "博客",
+    "description": "博客最新资讯和文章。",
+    "read_more_text": "阅读更多"
   }
 }

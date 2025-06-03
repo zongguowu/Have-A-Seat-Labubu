@@ -4,6 +4,11 @@
     "description": "Discover Have A Seat Labubu's unique artistic lifestyle products and collections. Transform your space with our exclusive Labubu art pieces, limited editions, and custom designs. Experience the perfect blend of art and functionality.",
     "keywords": "Have A Seat Labubu, Labubu, Artistic Lifestyle Brand, Labubu Art, Labubu Lounge, Limited Edition Art, Custom Art Design, Premium Art Products, Labubu Collections, Art Lifestyle, Labubu Series, Labubu Accessories, Labubu Custom Series, Labubu Collaboration Series"
   },
+  "blog": {
+    "title": "Blog",
+    "description": "Latest news and articles from our blog.",
+    "read_more_text": "Read More"
+  },
   "user": {
     "sign_in": "Sign In",
     "sign_out": "Sign Out",
